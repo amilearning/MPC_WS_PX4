@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/hojin/drone_ws/mpc_ws/devel/.private/rotors_joy_interface/setup.sh
