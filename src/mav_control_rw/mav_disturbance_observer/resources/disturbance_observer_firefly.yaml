@@ -43,13 +43,24 @@ KF_observer:
   # yaw_omega: 5.000000
 
   drag_coefficients: [0.020000, 0.020000, 0.000000]
-  roll_gain: 1.059263
-  roll_damping: 0.691178
-  roll_omega: 8.764472
-  pitch_gain: 0.981390
-  pitch_damping: 0.573487
-  pitch_omega: 8.296953
+  roll_gain: 1.003418
+  roll_damping: 1.000000
+  roll_omega: 7.456629
+  pitch_gain: 0.973308
+  pitch_damping: 1.000000
+  pitch_omega: 5.813300
   yaw_gain: 1.000000
   yaw_damping: 0.950000
   yaw_omega: 5.000000
+
+  # drag_coefficients: [0.020000, 0.020000, 0.000000]
+  # roll_gain: 1.059263
+  # roll_damping: 0.691178
+  # roll_omega: 8.764472
+  # pitch_gain: 0.981390
+  # pitch_damping: 0.573487
+  # pitch_omega: 8.296953
+  # yaw_gain: 1.000000
+  # yaw_damping: 0.950000
+  # yaw_omega: 5.000000
  
