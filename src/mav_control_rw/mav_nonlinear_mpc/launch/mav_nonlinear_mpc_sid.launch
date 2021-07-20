@@ -3,6 +3,7 @@
 
     <node name="mav_nonlinear_mpc" pkg="mav_nonlinear_mpc" type="nonlinear_mpc_node" respawn="false" clear_params="true" output="screen">
       <remap from="odometry" to="/ground_truth_pose2" />
+      
       <remap from="rc" to="joy" />
       <rosparam file="$(find mav_nonlinear_mpc)/resources/nonlinear_mpc_$(arg mav_name).yaml" />
       <rosparam file="$(find mav_disturbance_observer)/resources/disturbance_observer_$(arg mav_name).yaml"/>
@@ -11,7 +12,7 @@
       <param name="simulation" value="false"/>
       <param name="reference_frame" value="world"/>
       <param name="autopilot_interface" value="mavros"/>
-      <remap from="command/roll_pitch_yawrate_thrust" to="mavros/setpoint_raw/roll_pitch_yawrate_thrust"/>
+      <remap from="command/roll_pitch_yawrate_thrust" to="/m100/setpoint_raw/roll_pitch_yawrate_thrust"/>
     </node>
 
   
