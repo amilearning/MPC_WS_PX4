@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hojin/drone_ws/mpc_ws/src/rotors_simulator/rotors_description
+CMAKE_SOURCE_DIR = /home/slam01/dronw_ws/MPC_WS_PX4/src/rotors_simulator/rotors_description
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hojin/drone_ws/mpc_ws/build/rotors_description
+CMAKE_BINARY_DIR = /home/slam01/dronw_ws/MPC_WS_PX4/build/rotors_description
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -115,8 +115,8 @@ test/fast: test
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
+	/usr/bin/ccmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -137,9 +137,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hojin/drone_ws/mpc_ws/build/rotors_description/CMakeFiles /home/hojin/drone_ws/mpc_ws/build/rotors_description/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/slam01/dronw_ws/MPC_WS_PX4/build/rotors_description/CMakeFiles /home/slam01/dronw_ws/MPC_WS_PX4/build/rotors_description/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hojin/drone_ws/mpc_ws/build/rotors_description/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/slam01/dronw_ws/MPC_WS_PX4/build/rotors_description/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

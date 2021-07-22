@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "${prefix}/include".split(';') if "${prefix}/i
 PROJECT_CATKIN_DEPENDS = "mav_msgs;std_msgs;cmake_modules;geometry_msgs;roscpp;dynamic_reconfigure;tf".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "-lpid_attitude_controller_lib".split(';') if "-lpid_attitude_controller_lib" != "" else []
 PROJECT_NAME = "mav_lowlevel_attitude_controller"
-PROJECT_SPACE_DIR = "/home/hojin/drone_ws/mpc_ws/install"
+PROJECT_SPACE_DIR = "/home/slam01/dronw_ws/MPC_WS_PX4/install"
 PROJECT_VERSION = "0.0.0"

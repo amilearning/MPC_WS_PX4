@@ -7,7 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/hojin/drone_ws/mpc_ws/devel/.private/mav_state_machine_msgs:$CMAKE_PREFIX_PATH"
-export PWD='/home/hojin/drone_ws/mpc_ws/build/mav_state_machine_msgs'
-export ROSLISP_PACKAGE_DIRECTORIES="/home/hojin/drone_ws/mpc_ws/devel/.private/mav_state_machine_msgs/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/hojin/drone_ws/mpc_ws/src/mav_comm/mav_state_machine_msgs:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/slam01/dronw_ws/MPC_WS_PX4/devel/.private/mav_state_machine_msgs:$CMAKE_PREFIX_PATH"
+export PWD='/home/slam01/dronw_ws/MPC_WS_PX4/build/mav_state_machine_msgs'
+export ROSLISP_PACKAGE_DIRECTORIES="/home/slam01/dronw_ws/MPC_WS_PX4/devel/.private/mav_state_machine_msgs/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/home/slam01/dronw_ws/MPC_WS_PX4/src/mav_comm/mav_state_machine_msgs:$ROS_PACKAGE_PATH"

@@ -1,4 +1,4 @@
-prefix=/home/hojin/drone_ws/mpc_ws/devel/.private/rotors_description
+prefix=/home/slam01/dronw_ws/MPC_WS_PX4/devel/.private/rotors_description
 
 Name: rotors_description
 Description: Description of rotors_description

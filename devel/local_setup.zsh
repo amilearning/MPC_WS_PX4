@@ -1,1 +1,1 @@
-/home/hojin/drone_ws/mpc_ws/devel/.private/catkin_tools_prebuild/local_setup.zsh
+/home/slam01/dronw_ws/MPC_WS_PX4/devel/.private/catkin_tools_prebuild/local_setup.zsh

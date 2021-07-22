@@ -30,17 +30,20 @@ RcInterfaceAci::RcInterfaceAci(const ros::NodeHandle& nh)
 
 void RcInterfaceAci::rcCallback(const sensor_msgs::JoyConstPtr& msg)
 {
-  is_on_ = isRcOn(msg);
+
+  
+  // is_on_ = isRcOn(msg);
   is_on_ = true;
  
   last_data_.timestamp = msg->header.stamp;
 
   if (is_on_) {
      ROS_INFO("joy input recived");
-    last_data_.right_up_down = msg->axes[4]; // pitch 
-    last_data_.right_side = -msg->axes[3]; //roll 
-    last_data_.left_up_down = msg->axes[1]; // thrust 
-    last_data_.left_side = -msg->axes[0]; // yaw rate
+     //need to normalize it 
+    last_data_.right_up_down = msg->axes[1]; // pitch 
+    last_data_.right_side = -msg->axes[0]; //roll 
+    last_data_.left_up_down = msg->axes[2]; // thrust 
+    last_data_.left_side = msg->axes[3]; // yaw rate        
     
     last_data_.control_interface = RcData::ControlInterface::ON;
     

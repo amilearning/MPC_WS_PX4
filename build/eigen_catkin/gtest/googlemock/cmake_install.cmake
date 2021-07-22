@@ -2,7 +2,7 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/hojin/drone_ws/mpc_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/slam01/dronw_ws/MPC_WS_PX4/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/hojin/drone_ws/mpc_ws/build/eigen_catkin/gtest/googlemock/gtest/cmake_install.cmake")
+  include("/home/slam01/dronw_ws/MPC_WS_PX4/build/eigen_catkin/gtest/googlemock/gtest/cmake_install.cmake")
 
 endif()
 

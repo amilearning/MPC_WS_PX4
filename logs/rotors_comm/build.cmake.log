@@ -13,16 +13,16 @@ Not searching for unused variables given on the command line.
 [36m--[0m Detecting CXX compiler ABI info - done
 [36m--[0m Detecting CXX compile features
 [36m--[0m Detecting CXX compile features - done
-[36m--[0m Using CATKIN_DEVEL_PREFIX: /home/hojin/drone_ws/mpc_ws/devel/.private/rotors_comm
-[36m--[0m Using CMAKE_PREFIX_PATH: /home/hojin/drone_ws/mpc_ws/devel;/home/hojin/drone_ws/mbplanner_ws/devel;/home/hojin/catkin_ws/devel;/opt/ros/melodic
-[36m--[0m This workspace overlays: /home/hojin/drone_ws/mpc_ws/devel;/home/hojin/drone_ws/mbplanner_ws/devel;/home/hojin/catkin_ws/devel;/opt/ros/melodic
+[36m--[0m Using CATKIN_DEVEL_PREFIX: /home/slam01/dronw_ws/MPC_WS_PX4/devel/.private/rotors_comm
+[36m--[0m Using CMAKE_PREFIX_PATH: /home/slam01/dronw_ws/MPC_WS_PX4/devel;/home/slam01/catkin_ws_PBVS_yawfused/devel;/home/slam01/catkin_ws_viconbridge/devel;/home/slam01/catkin_ws_ublox/devel;/home/slam01/catkin_ws_mocap_optitrack/devel;/home/slam01/catkin_ws_bag2csv/devel;/home/slam01/catkin_ws_aruco_5x5/devel;/home/slam01/catkin_ws_aruco_7x7/devel;/home/slam01/catkin_ws_matlab/devel;/home/slam01/catkin_ws_optitrack_test/devel;/home/slam01/catkin_ws_vrpn/devel;/home/slam01/catkin_ws/devel;/opt/ros/melodic
+[36m--[0m This workspace overlays: /home/slam01/dronw_ws/MPC_WS_PX4/devel;/home/slam01/catkin_ws_PBVS_yawfused/devel;/home/slam01/catkin_ws_viconbridge/devel;/home/slam01/catkin_ws_ublox/devel;/home/slam01/catkin_ws_mocap_optitrack/devel;/home/slam01/catkin_ws_bag2csv/devel;/home/slam01/catkin_ws_aruco_5x5/devel;/home/slam01/catkin_ws_aruco_7x7/devel;/home/slam01/catkin_ws_matlab/devel;/home/slam01/catkin_ws_optitrack_test/devel;/home/slam01/catkin_ws_vrpn/devel;/home/slam01/catkin_ws/devel;/opt/ros/melodic
 [36m--[0m Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2")
 [36m--[0m Using PYTHON_EXECUTABLE: /usr/bin/python2
 [36m--[0m Using Debian Python package layout
 [36m--[0m Using empy: /usr/bin/empy
 [36m--[0m Using CATKIN_ENABLE_TESTING: ON
 [36m--[0m Call enable_testing()
-[36m--[0m Using CATKIN_TEST_RESULTS_DIR: /home/hojin/drone_ws/mpc_ws/build/rotors_comm/test_results
+[36m--[0m Using CATKIN_TEST_RESULTS_DIR: /home/slam01/dronw_ws/MPC_WS_PX4/build/rotors_comm/test_results
 [36m--[0m Found gtest sources under '/usr/src/googletest': gtests will be built
 [36m--[0m Found gmock sources under '/usr/src/googletest': gmock will be built
 [36m--[0m Found PythonInterp: /usr/bin/python2 (found version "2.7.17")
@@ -39,7 +39,23 @@ Not searching for unused variables given on the command line.
 [36m--[0m catkin 0.7.29
 [36m--[0m BUILD_SHARED_LIBS is on
 [36m--[0m Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
-[36m--[0m rotors_comm: 1 messages, 2 services
-[36m--[0m Configuring done
-[36m--[0m Generating done
-[36m--[0m Build files have been written to: /home/hojin/drone_ws/mpc_ws/build/rotors_comm
+[36m--[0m Could NOT find octomap_msgs (missing: octomap_msgs_DIR)
+[36m--[0m Could not find the required component 'octomap_msgs'. The following CMake error indicates that you either need to install the package with the same name or change your environment so that it can be found.
+[31m[1mCMake Error[0m at /opt/ros/melodic/share/catkin/cmake/catkinConfig.cmake:83 (find_package):
+  Could not find a package configuration file provided by "octomap_msgs" with
+  any of the following names:
+
+    octomap_msgsConfig.cmake
+    octomap_msgs-config.cmake
+
+  Add the installation prefix of "octomap_msgs" to CMAKE_PREFIX_PATH or set
+  "octomap_msgs_DIR" to a directory containing one of the above files.  If
+  "octomap_msgs" provides a separate development package or SDK, be sure it
+  has been installed.
+[36mCall Stack (most recent call first):[0m
+  CMakeLists.txt:3 (find_package)
+
+
+[36m--[0m Configuring incomplete, errors occurred!
+See also "/home/slam01/dronw_ws/MPC_WS_PX4/build/rotors_comm/CMakeFiles/CMakeOutput.log".
+See also "/home/slam01/dronw_ws/MPC_WS_PX4/build/rotors_comm/CMakeFiles/CMakeError.log".

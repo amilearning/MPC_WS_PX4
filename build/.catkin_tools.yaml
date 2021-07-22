@@ -1,6 +1,6 @@
-devel_space: /home/hojin/drone_ws/mpc_ws/devel
+devel_space: /home/slam01/dronw_ws/MPC_WS_PX4/devel
 install: false
-install_space: /home/hojin/drone_ws/mpc_ws/install
+install_space: /home/slam01/dronw_ws/MPC_WS_PX4/install
 profile: default
-source_space: /home/hojin/drone_ws/mpc_ws/src
-workspace: /home/hojin/drone_ws/mpc_ws
+source_space: /home/slam01/dronw_ws/MPC_WS_PX4/src
+workspace: /home/slam01/dronw_ws/MPC_WS_PX4

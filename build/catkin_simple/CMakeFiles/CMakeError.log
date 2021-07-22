@@ -1,24 +1,25 @@
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/hojin/drone_ws/mpc_ws/build/catkin_simple/CMakeFiles/CMakeTmp
+Change Dir: /home/slam01/dronw_ws/MPC_WS_PX4/build/catkin_simple/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_8ce87/fast"
-/usr/bin/make -f CMakeFiles/cmTC_8ce87.dir/build.make CMakeFiles/cmTC_8ce87.dir/build
-make[1]: Entering directory '/home/hojin/drone_ws/mpc_ws/build/catkin_simple/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_8ce87.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_8ce87.dir/CheckSymbolExists.c.o   -c /home/hojin/drone_ws/mpc_ws/build/catkin_simple/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_8ce87
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8ce87.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_8ce87.dir/CheckSymbolExists.c.o  -o cmTC_8ce87 
-CMakeFiles/cmTC_8ce87.dir/CheckSymbolExists.c.o: In function `main':
-CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+Run Build Command:"/usr/bin/make" "cmTC_dd377/fast"
+/usr/bin/make -f CMakeFiles/cmTC_dd377.dir/build.make CMakeFiles/cmTC_dd377.dir/build
+make[1]: Entering directory '/home/slam01/dronw_ws/MPC_WS_PX4/build/catkin_simple/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dd377.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_dd377.dir/CheckSymbolExists.c.o   -c /home/slam01/dronw_ws/MPC_WS_PX4/build/catkin_simple/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_dd377
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dd377.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_dd377.dir/CheckSymbolExists.c.o  -o cmTC_dd377 
+CMakeFiles/cmTC_dd377.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x14): undefined reference to `pthread_create'
+CheckSymbolExists.c:(.text+0x18): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_8ce87.dir/build.make:97: recipe for target 'cmTC_8ce87' failed
-make[1]: *** [cmTC_8ce87] Error 1
-make[1]: Leaving directory '/home/hojin/drone_ws/mpc_ws/build/catkin_simple/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_8ce87/fast' failed
-make: *** [cmTC_8ce87/fast] Error 2
+CMakeFiles/cmTC_dd377.dir/build.make:97: recipe for target 'cmTC_dd377' failed
+make[1]: *** [cmTC_dd377] Error 1
+make[1]: Leaving directory '/home/slam01/dronw_ws/MPC_WS_PX4/build/catkin_simple/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_dd377/fast' failed
+make: *** [cmTC_dd377/fast] Error 2
 
-File /home/hojin/drone_ws/mpc_ws/build/catkin_simple/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/slam01/dronw_ws/MPC_WS_PX4/build/catkin_simple/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 
@@ -34,22 +35,22 @@ int main(int argc, char** argv)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/hojin/drone_ws/mpc_ws/build/catkin_simple/CMakeFiles/CMakeTmp
+Change Dir: /home/slam01/dronw_ws/MPC_WS_PX4/build/catkin_simple/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_6459b/fast"
-/usr/bin/make -f CMakeFiles/cmTC_6459b.dir/build.make CMakeFiles/cmTC_6459b.dir/build
-make[1]: Entering directory '/home/hojin/drone_ws/mpc_ws/build/catkin_simple/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_6459b.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_6459b.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_6459b
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6459b.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_6459b.dir/CheckFunctionExists.c.o  -o cmTC_6459b -lpthreads 
+Run Build Command:"/usr/bin/make" "cmTC_e4018/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e4018.dir/build.make CMakeFiles/cmTC_e4018.dir/build
+make[1]: Entering directory '/home/slam01/dronw_ws/MPC_WS_PX4/build/catkin_simple/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e4018.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_e4018.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e4018
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e4018.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_e4018.dir/CheckFunctionExists.c.o  -o cmTC_e4018 -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_6459b.dir/build.make:97: recipe for target 'cmTC_6459b' failed
-make[1]: *** [cmTC_6459b] Error 1
-make[1]: Leaving directory '/home/hojin/drone_ws/mpc_ws/build/catkin_simple/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_6459b/fast' failed
-make: *** [cmTC_6459b/fast] Error 2
+CMakeFiles/cmTC_e4018.dir/build.make:97: recipe for target 'cmTC_e4018' failed
+make[1]: *** [cmTC_e4018] Error 1
+make[1]: Leaving directory '/home/slam01/dronw_ws/MPC_WS_PX4/build/catkin_simple/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_e4018/fast' failed
+make: *** [cmTC_e4018/fast] Error 2
 
 

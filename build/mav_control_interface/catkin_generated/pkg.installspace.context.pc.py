@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "${prefix}/include".split(';') if "${prefix}/i
 PROJECT_CATKIN_DEPENDS = "cmake_modules;roscpp;mav_msgs;nav_msgs;std_msgs;std_srvs;tf;tf_conversions;visualization_msgs".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "-lmav_control_interface".split(';') if "-lmav_control_interface" != "" else []
 PROJECT_NAME = "mav_control_interface"
-PROJECT_SPACE_DIR = "/home/hojin/drone_ws/mpc_ws/install"
+PROJECT_SPACE_DIR = "/home/slam01/dronw_ws/MPC_WS_PX4/install"
 PROJECT_VERSION = "0.0.0"

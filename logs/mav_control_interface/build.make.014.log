@@ -1,0 +1,107 @@
+[  0%] Built target tf_generate_messages_nodejs
+[  0%] Built target visualization_msgs_generate_messages_py
+[  0%] Built target visualization_msgs_generate_messages_nodejs
+[  0%] Built target visualization_msgs_generate_messages_eus
+[  0%] Built target tf2_msgs_generate_messages_nodejs
+[  0%] Built target tf2_msgs_generate_messages_py
+[  0%] Built target tf2_msgs_generate_messages_cpp
+[  0%] Built target actionlib_generate_messages_py
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[  0%] Built target actionlib_generate_messages_cpp
+[  0%] Built target uuid_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target sensor_msgs_generate_messages_eus
+[  0%] Built target mav_msgs_generate_messages_py
+[  0%] Built target uuid_msgs_generate_messages_nodejs
+[  0%] Built target visualization_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target trajectory_msgs_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target actionlib_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target mavros_msgs_generate_messages_cpp
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target geographic_msgs_generate_messages_lisp
+[  0%] Built target trajectory_msgs_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target sensor_msgs_generate_messages_py
+[  0%] Built target tf_generate_messages_py
+[  0%] Built target uuid_msgs_generate_messages_eus
+[  0%] Built target geographic_msgs_generate_messages_py
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target geographic_msgs_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target mavros_msgs_generate_messages_eus
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[  0%] Built target nav_msgs_generate_messages_cpp
+[  0%] Built target uuid_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[  0%] Built target mavros_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target actionlib_msgs_generate_messages_nodejs
+[  0%] Built target uuid_msgs_generate_messages_py
+[  0%] Built target nav_msgs_generate_messages_nodejs
+[  0%] Built target mavros_msgs_generate_messages_nodejs
+[  0%] Built target mavros_msgs_generate_messages_py
+[  0%] Built target geographic_msgs_generate_messages_cpp
+[  0%] Built target std_srvs_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target trajectory_msgs_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+[  0%] Built target mav_msgs_generate_messages_cpp
+[  0%] Built target actionlib_msgs_generate_messages_py
+[  0%] Built target mav_msgs_generate_messages_eus
+[  0%] Built target actionlib_generate_messages_eus
+[  0%] Built target trajectory_msgs_generate_messages_lisp
+[  0%] Built target mav_msgs_generate_messages_nodejs
+[  0%] Built target trajectory_msgs_generate_messages_nodejs
+[  0%] Built target visualization_msgs_generate_messages_cpp
+[  0%] Built target tf2_msgs_generate_messages_eus
+[  0%] Built target nav_msgs_generate_messages_eus
+[  0%] Built target nav_msgs_generate_messages_py
+[  0%] Built target nav_msgs_generate_messages_lisp
+[  0%] Built target tf2_msgs_generate_messages_lisp
+[  0%] Built target std_srvs_generate_messages_cpp
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target actionlib_msgs_generate_messages_eus
+[  0%] Built target std_srvs_generate_messages_lisp
+[  0%] Built target std_srvs_generate_messages_nodejs
+[  0%] Built target geographic_msgs_generate_messages_nodejs
+[  0%] Built target actionlib_generate_messages_nodejs
+[  0%] Built target std_srvs_generate_messages_py
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[  0%] Built target tf_generate_messages_cpp
+[  0%] Built target mav_msgs_generate_messages_lisp
+[  0%] Built target tf_generate_messages_eus
+[  0%] Built target tf_generate_messages_lisp
+[35m[1mScanning dependencies of target mav_control_interface[0m
+[  9%] [32mBuilding CXX object CMakeFiles/mav_control_interface.dir/src/mav_control_interface.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/mav_control_interface.dir/src/rc_interface.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/mav_control_interface.dir/src/rc_interface_aci.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/mav_control_interface.dir/src/mav_control_interface_impl.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/mav_control_interface.dir/src/state_machine.cpp.o[0m
+[01m[K/home/slam01/dronw_ws/MPC_WS_PX4/src/mav_control_rw/mav_control_interface/src/rc_interface_aci.cpp:[m[K In member function ‘[01m[Kvoid mav_control_interface::RcInterfaceAci::rcCallback(const RCInConstPtr&)[m[K’:
+[01m[K/home/slam01/dronw_ws/MPC_WS_PX4/src/mav_control_rw/mav_control_interface/src/rc_interface_aci.cpp:42:22:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmav_control_interface::RcInterfaceAci::isRcOn(const RCInConstPtr&)[m[K’
+   is_on_ = isRcOn(msg[01;31m[K)[m[K;
+                      [01;31m[K^[m[K
+In file included from [01m[K/home/slam01/dronw_ws/MPC_WS_PX4/src/mav_control_rw/mav_control_interface/src/rc_interface_aci.cpp:19:0[m[K:
+[01m[K/home/slam01/dronw_ws/MPC_WS_PX4/src/mav_control_rw/mav_control_interface/include/mav_control_interface/rc_interface_aci.h:40:8:[m[K [01;36m[Knote: [m[Kcandidate: bool mav_control_interface::RcInterfaceAci::isRcOn(const JoyConstPtr&) const
+   bool [01;36m[KisRcOn[m[K(const sensor_msgs::JoyConstPtr& msg) const;
+        [01;36m[K^~~~~~[m[K
+[01m[K/home/slam01/dronw_ws/MPC_WS_PX4/src/mav_control_rw/mav_control_interface/include/mav_control_interface/rc_interface_aci.h:40:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst RCInConstPtr {aka const boost::shared_ptr<const mavros_msgs::RCIn_<std::allocator<void> > >}[m[K’ to ‘[01m[Kconst JoyConstPtr& {aka const boost::shared_ptr<const sensor_msgs::Joy_<std::allocator<void> > >&}[m[K’
+CMakeFiles/mav_control_interface.dir/build.make:182: recipe for target 'CMakeFiles/mav_control_interface.dir/src/rc_interface_aci.cpp.o' failed
+make[2]: *** [CMakeFiles/mav_control_interface.dir/src/rc_interface_aci.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+CMakeFiles/Makefile2:273: recipe for target 'CMakeFiles/mav_control_interface.dir/all' failed
+make[1]: *** [CMakeFiles/mav_control_interface.dir/all] Error 2
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2

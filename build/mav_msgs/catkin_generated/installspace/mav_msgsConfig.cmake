@@ -67,14 +67,14 @@ set(mav_msgs_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(mav_msgs_SOURCE_PREFIX /home/hojin/drone_ws/mpc_ws/src/mav_comm/mav_msgs)
-  set(mav_msgs_DEVEL_PREFIX /home/hojin/drone_ws/mpc_ws/devel/.private/mav_msgs)
+  set(mav_msgs_SOURCE_PREFIX /home/slam01/dronw_ws/MPC_WS_PX4/src/mav_comm/mav_msgs)
+  set(mav_msgs_DEVEL_PREFIX /home/slam01/dronw_ws/MPC_WS_PX4/devel/.private/mav_msgs)
   set(mav_msgs_INSTALL_PREFIX "")
   set(mav_msgs_PREFIX ${mav_msgs_DEVEL_PREFIX})
 else()
   set(mav_msgs_SOURCE_PREFIX "")
   set(mav_msgs_DEVEL_PREFIX "")
-  set(mav_msgs_INSTALL_PREFIX /home/hojin/drone_ws/mpc_ws/install)
+  set(mav_msgs_INSTALL_PREFIX /home/slam01/dronw_ws/MPC_WS_PX4/install)
   set(mav_msgs_PREFIX ${mav_msgs_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/hojin/drone_ws/mpc_ws/install/lib;/home/hojin/drone_ws/mpc_ws/devel/lib;/home/hojin/drone_ws/mbplanner_ws/devel/lib;/home/hojin/catkin_ws/devel/lib;/opt/ros/melodic/lib)
+    foreach(path /home/slam01/dronw_ws/MPC_WS_PX4/install/lib;/home/slam01/dronw_ws/MPC_WS_PX4/devel/lib;/home/slam01/catkin_ws_PBVS_yawfused/devel/lib;/home/slam01/catkin_ws_viconbridge/devel/lib;/home/slam01/catkin_ws_ublox/devel/lib;/home/slam01/catkin_ws_mocap_optitrack/devel/lib;/home/slam01/catkin_ws_bag2csv/devel/lib;/home/slam01/catkin_ws_aruco_5x5/devel/lib;/home/slam01/catkin_ws_aruco_7x7/devel/lib;/home/slam01/catkin_ws_matlab/devel/lib;/home/slam01/catkin_ws_optitrack_test/devel/lib;/home/slam01/catkin_ws_vrpn/devel/lib;/home/slam01/catkin_ws/devel/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

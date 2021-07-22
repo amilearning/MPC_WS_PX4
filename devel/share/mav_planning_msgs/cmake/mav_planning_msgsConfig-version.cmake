@@ -1,1 +1,1 @@
-/home/hojin/drone_ws/mpc_ws/devel/.private/mav_planning_msgs/share/mav_planning_msgs/cmake/mav_planning_msgsConfig-version.cmake
+/home/slam01/dronw_ws/MPC_WS_PX4/devel/.private/mav_planning_msgs/share/mav_planning_msgs/cmake/mav_planning_msgsConfig-version.cmake

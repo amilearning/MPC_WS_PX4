@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hojin/drone_ws/mpc_ws/src/mav_comm/mav_planning_msgs
+CMAKE_SOURCE_DIR = /home/slam01/dronw_ws/MPC_WS_PX4/src/mav_comm/mav_planning_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hojin/drone_ws/mpc_ws/build/mav_planning_msgs
+CMAKE_BINARY_DIR = /home/slam01/dronw_ws/MPC_WS_PX4/build/mav_planning_msgs
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,8 +79,8 @@ test/fast: test
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
+	/usr/bin/ccmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -137,9 +137,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hojin/drone_ws/mpc_ws/build/mav_planning_msgs/CMakeFiles /home/hojin/drone_ws/mpc_ws/build/mav_planning_msgs/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/slam01/dronw_ws/MPC_WS_PX4/build/mav_planning_msgs/CMakeFiles /home/slam01/dronw_ws/MPC_WS_PX4/build/mav_planning_msgs/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hojin/drone_ws/mpc_ws/build/mav_planning_msgs/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/slam01/dronw_ws/MPC_WS_PX4/build/mav_planning_msgs/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -285,19 +285,6 @@ mav_planning_msgs_generate_messages_cpp/fast:
 .PHONY : mav_planning_msgs_generate_messages_cpp/fast
 
 #=============================================================================
-# Target rules for targets named _mav_planning_msgs_generate_messages_check_deps_ChangeNameService
-
-# Build rule for target.
-_mav_planning_msgs_generate_messages_check_deps_ChangeNameService: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 _mav_planning_msgs_generate_messages_check_deps_ChangeNameService
-.PHONY : _mav_planning_msgs_generate_messages_check_deps_ChangeNameService
-
-# fast build rule for target.
-_mav_planning_msgs_generate_messages_check_deps_ChangeNameService/fast:
-	$(MAKE) -f CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_ChangeNameService.dir/build.make CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_ChangeNameService.dir/build
-.PHONY : _mav_planning_msgs_generate_messages_check_deps_ChangeNameService/fast
-
-#=============================================================================
 # Target rules for targets named _mav_planning_msgs_generate_messages_check_deps_PolynomialTrajectory4D
 
 # Build rule for target.
@@ -311,19 +298,6 @@ _mav_planning_msgs_generate_messages_check_deps_PolynomialTrajectory4D/fast:
 .PHONY : _mav_planning_msgs_generate_messages_check_deps_PolynomialTrajectory4D/fast
 
 #=============================================================================
-# Target rules for targets named _mav_planning_msgs_generate_messages_check_deps_PolynomialTrajectory
-
-# Build rule for target.
-_mav_planning_msgs_generate_messages_check_deps_PolynomialTrajectory: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 _mav_planning_msgs_generate_messages_check_deps_PolynomialTrajectory
-.PHONY : _mav_planning_msgs_generate_messages_check_deps_PolynomialTrajectory
-
-# fast build rule for target.
-_mav_planning_msgs_generate_messages_check_deps_PolynomialTrajectory/fast:
-	$(MAKE) -f CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_PolynomialTrajectory.dir/build.make CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_PolynomialTrajectory.dir/build
-.PHONY : _mav_planning_msgs_generate_messages_check_deps_PolynomialTrajectory/fast
-
-#=============================================================================
 # Target rules for targets named _mav_planning_msgs_generate_messages_check_deps_PolynomialSegment
 
 # Build rule for target.
@@ -335,6 +309,19 @@ _mav_planning_msgs_generate_messages_check_deps_PolynomialSegment: cmake_check_b
 _mav_planning_msgs_generate_messages_check_deps_PolynomialSegment/fast:
 	$(MAKE) -f CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_PolynomialSegment.dir/build.make CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_PolynomialSegment.dir/build
 .PHONY : _mav_planning_msgs_generate_messages_check_deps_PolynomialSegment/fast
+
+#=============================================================================
+# Target rules for targets named _mav_planning_msgs_generate_messages_check_deps_ChangeNameService
+
+# Build rule for target.
+_mav_planning_msgs_generate_messages_check_deps_ChangeNameService: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _mav_planning_msgs_generate_messages_check_deps_ChangeNameService
+.PHONY : _mav_planning_msgs_generate_messages_check_deps_ChangeNameService
+
+# fast build rule for target.
+_mav_planning_msgs_generate_messages_check_deps_ChangeNameService/fast:
+	$(MAKE) -f CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_ChangeNameService.dir/build.make CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_ChangeNameService.dir/build
+.PHONY : _mav_planning_msgs_generate_messages_check_deps_ChangeNameService/fast
 
 #=============================================================================
 # Target rules for targets named std_msgs_generate_messages_py
@@ -740,6 +727,45 @@ trajectory_msgs_generate_messages_lisp/fast:
 .PHONY : trajectory_msgs_generate_messages_lisp/fast
 
 #=============================================================================
+# Target rules for targets named _mav_planning_msgs_generate_messages_check_deps_PlannerService
+
+# Build rule for target.
+_mav_planning_msgs_generate_messages_check_deps_PlannerService: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _mav_planning_msgs_generate_messages_check_deps_PlannerService
+.PHONY : _mav_planning_msgs_generate_messages_check_deps_PlannerService
+
+# fast build rule for target.
+_mav_planning_msgs_generate_messages_check_deps_PlannerService/fast:
+	$(MAKE) -f CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_PlannerService.dir/build.make CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_PlannerService.dir/build
+.PHONY : _mav_planning_msgs_generate_messages_check_deps_PlannerService/fast
+
+#=============================================================================
+# Target rules for targets named _mav_planning_msgs_generate_messages_check_deps_PolynomialSegment4D
+
+# Build rule for target.
+_mav_planning_msgs_generate_messages_check_deps_PolynomialSegment4D: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _mav_planning_msgs_generate_messages_check_deps_PolynomialSegment4D
+.PHONY : _mav_planning_msgs_generate_messages_check_deps_PolynomialSegment4D
+
+# fast build rule for target.
+_mav_planning_msgs_generate_messages_check_deps_PolynomialSegment4D/fast:
+	$(MAKE) -f CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_PolynomialSegment4D.dir/build.make CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_PolynomialSegment4D.dir/build
+.PHONY : _mav_planning_msgs_generate_messages_check_deps_PolynomialSegment4D/fast
+
+#=============================================================================
+# Target rules for targets named mav_msgs_generate_messages_nodejs
+
+# Build rule for target.
+mav_msgs_generate_messages_nodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 mav_msgs_generate_messages_nodejs
+.PHONY : mav_msgs_generate_messages_nodejs
+
+# fast build rule for target.
+mav_msgs_generate_messages_nodejs/fast:
+	$(MAKE) -f CMakeFiles/mav_msgs_generate_messages_nodejs.dir/build.make CMakeFiles/mav_msgs_generate_messages_nodejs.dir/build
+.PHONY : mav_msgs_generate_messages_nodejs/fast
+
+#=============================================================================
 # Target rules for targets named sensor_msgs_generate_messages_eus
 
 # Build rule for target.
@@ -779,6 +805,32 @@ trajectory_msgs_generate_messages_cpp/fast:
 .PHONY : trajectory_msgs_generate_messages_cpp/fast
 
 #=============================================================================
+# Target rules for targets named _mav_planning_msgs_generate_messages_check_deps_PolynomialTrajectory
+
+# Build rule for target.
+_mav_planning_msgs_generate_messages_check_deps_PolynomialTrajectory: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _mav_planning_msgs_generate_messages_check_deps_PolynomialTrajectory
+.PHONY : _mav_planning_msgs_generate_messages_check_deps_PolynomialTrajectory
+
+# fast build rule for target.
+_mav_planning_msgs_generate_messages_check_deps_PolynomialTrajectory/fast:
+	$(MAKE) -f CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_PolynomialTrajectory.dir/build.make CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_PolynomialTrajectory.dir/build
+.PHONY : _mav_planning_msgs_generate_messages_check_deps_PolynomialTrajectory/fast
+
+#=============================================================================
+# Target rules for targets named _mav_planning_msgs_generate_messages_check_deps_PointCloudWithPose
+
+# Build rule for target.
+_mav_planning_msgs_generate_messages_check_deps_PointCloudWithPose: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _mav_planning_msgs_generate_messages_check_deps_PointCloudWithPose
+.PHONY : _mav_planning_msgs_generate_messages_check_deps_PointCloudWithPose
+
+# fast build rule for target.
+_mav_planning_msgs_generate_messages_check_deps_PointCloudWithPose/fast:
+	$(MAKE) -f CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_PointCloudWithPose.dir/build.make CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_PointCloudWithPose.dir/build
+.PHONY : _mav_planning_msgs_generate_messages_check_deps_PointCloudWithPose/fast
+
+#=============================================================================
 # Target rules for targets named mav_msgs_generate_messages_lisp
 
 # Build rule for target.
@@ -803,58 +855,6 @@ _mav_planning_msgs_generate_messages_check_deps_PolygonService: cmake_check_buil
 _mav_planning_msgs_generate_messages_check_deps_PolygonService/fast:
 	$(MAKE) -f CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_PolygonService.dir/build.make CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_PolygonService.dir/build
 .PHONY : _mav_planning_msgs_generate_messages_check_deps_PolygonService/fast
-
-#=============================================================================
-# Target rules for targets named _mav_planning_msgs_generate_messages_check_deps_PolynomialSegment4D
-
-# Build rule for target.
-_mav_planning_msgs_generate_messages_check_deps_PolynomialSegment4D: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 _mav_planning_msgs_generate_messages_check_deps_PolynomialSegment4D
-.PHONY : _mav_planning_msgs_generate_messages_check_deps_PolynomialSegment4D
-
-# fast build rule for target.
-_mav_planning_msgs_generate_messages_check_deps_PolynomialSegment4D/fast:
-	$(MAKE) -f CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_PolynomialSegment4D.dir/build.make CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_PolynomialSegment4D.dir/build
-.PHONY : _mav_planning_msgs_generate_messages_check_deps_PolynomialSegment4D/fast
-
-#=============================================================================
-# Target rules for targets named mav_msgs_generate_messages_nodejs
-
-# Build rule for target.
-mav_msgs_generate_messages_nodejs: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 mav_msgs_generate_messages_nodejs
-.PHONY : mav_msgs_generate_messages_nodejs
-
-# fast build rule for target.
-mav_msgs_generate_messages_nodejs/fast:
-	$(MAKE) -f CMakeFiles/mav_msgs_generate_messages_nodejs.dir/build.make CMakeFiles/mav_msgs_generate_messages_nodejs.dir/build
-.PHONY : mav_msgs_generate_messages_nodejs/fast
-
-#=============================================================================
-# Target rules for targets named _mav_planning_msgs_generate_messages_check_deps_PlannerService
-
-# Build rule for target.
-_mav_planning_msgs_generate_messages_check_deps_PlannerService: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 _mav_planning_msgs_generate_messages_check_deps_PlannerService
-.PHONY : _mav_planning_msgs_generate_messages_check_deps_PlannerService
-
-# fast build rule for target.
-_mav_planning_msgs_generate_messages_check_deps_PlannerService/fast:
-	$(MAKE) -f CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_PlannerService.dir/build.make CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_PlannerService.dir/build
-.PHONY : _mav_planning_msgs_generate_messages_check_deps_PlannerService/fast
-
-#=============================================================================
-# Target rules for targets named _mav_planning_msgs_generate_messages_check_deps_PointCloudWithPose
-
-# Build rule for target.
-_mav_planning_msgs_generate_messages_check_deps_PointCloudWithPose: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 _mav_planning_msgs_generate_messages_check_deps_PointCloudWithPose
-.PHONY : _mav_planning_msgs_generate_messages_check_deps_PointCloudWithPose
-
-# fast build rule for target.
-_mav_planning_msgs_generate_messages_check_deps_PointCloudWithPose/fast:
-	$(MAKE) -f CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_PointCloudWithPose.dir/build.make CMakeFiles/_mav_planning_msgs_generate_messages_check_deps_PointCloudWithPose.dir/build
-.PHONY : _mav_planning_msgs_generate_messages_check_deps_PointCloudWithPose/fast
 
 #=============================================================================
 # Target rules for targets named gmock_main
@@ -926,11 +926,10 @@ help:
 	@echo "... mav_planning_msgs_geneus"
 	@echo "... mav_planning_msgs_gencpp"
 	@echo "... mav_planning_msgs_generate_messages_cpp"
-	@echo "... _mav_planning_msgs_generate_messages_check_deps_ChangeNameService"
 	@echo "... _mav_planning_msgs_generate_messages_check_deps_PolynomialTrajectory4D"
-	@echo "... _mav_planning_msgs_generate_messages_check_deps_PolynomialTrajectory"
 	@echo "... install"
 	@echo "... _mav_planning_msgs_generate_messages_check_deps_PolynomialSegment"
+	@echo "... _mav_planning_msgs_generate_messages_check_deps_ChangeNameService"
 	@echo "... std_msgs_generate_messages_py"
 	@echo "... std_msgs_generate_messages_nodejs"
 	@echo "... std_msgs_generate_messages_lisp"
@@ -965,15 +964,16 @@ help:
 	@echo "... _mav_planning_msgs_generate_messages_check_deps_PolygonWithHoles"
 	@echo "... mav_msgs_generate_messages_eus"
 	@echo "... trajectory_msgs_generate_messages_lisp"
+	@echo "... _mav_planning_msgs_generate_messages_check_deps_PlannerService"
+	@echo "... _mav_planning_msgs_generate_messages_check_deps_PolynomialSegment4D"
+	@echo "... mav_msgs_generate_messages_nodejs"
 	@echo "... sensor_msgs_generate_messages_eus"
 	@echo "... mav_msgs_generate_messages_py"
 	@echo "... trajectory_msgs_generate_messages_cpp"
+	@echo "... _mav_planning_msgs_generate_messages_check_deps_PolynomialTrajectory"
+	@echo "... _mav_planning_msgs_generate_messages_check_deps_PointCloudWithPose"
 	@echo "... mav_msgs_generate_messages_lisp"
 	@echo "... _mav_planning_msgs_generate_messages_check_deps_PolygonService"
-	@echo "... _mav_planning_msgs_generate_messages_check_deps_PolynomialSegment4D"
-	@echo "... mav_msgs_generate_messages_nodejs"
-	@echo "... _mav_planning_msgs_generate_messages_check_deps_PlannerService"
-	@echo "... _mav_planning_msgs_generate_messages_check_deps_PointCloudWithPose"
 	@echo "... gmock_main"
 	@echo "... gmock"
 	@echo "... gtest_main"

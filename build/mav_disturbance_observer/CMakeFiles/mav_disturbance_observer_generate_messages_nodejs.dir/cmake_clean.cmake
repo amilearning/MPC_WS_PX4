@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/mav_disturbance_observer_generate_messages_nodejs"
-  "/home/hojin/drone_ws/mpc_ws/devel/.private/mav_disturbance_observer/share/gennodejs/ros/mav_disturbance_observer/msg/ObserverState.js"
+  "/home/slam01/dronw_ws/MPC_WS_PX4/devel/.private/mav_disturbance_observer/share/gennodejs/ros/mav_disturbance_observer/msg/ObserverState.js"
 )
 
 # Per-language clean rules from dependency scanning.

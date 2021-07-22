@@ -1,1 +1,1 @@
-set(ORDERED_PATHS "/opt/ros/melodic/lib")
+set(ORDERED_PATHS "/home/slam01/catkin_ws/devel/.private/mavros_msgs/include;/home/slam01/catkin_ws/src/mavros/mavros_msgs/include;/opt/ros/melodic/include;/usr/include")

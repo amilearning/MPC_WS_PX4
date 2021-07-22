@@ -1,10 +1,10 @@
 
 "use strict";
 
-let CpuInfo = require('./CpuInfo.js');
 let ProcessInfo = require('./ProcessInfo.js');
+let CpuInfo = require('./CpuInfo.js');
 
 module.exports = {
-  CpuInfo: CpuInfo,
   ProcessInfo: ProcessInfo,
+  CpuInfo: CpuInfo,
 };

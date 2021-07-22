@@ -1,24 +1,25 @@
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/hojin/drone_ws/mpc_ws/build/mav_planning_msgs/CMakeFiles/CMakeTmp
+Change Dir: /home/slam01/dronw_ws/MPC_WS_PX4/build/mav_planning_msgs/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_4eeae/fast"
-/usr/bin/make -f CMakeFiles/cmTC_4eeae.dir/build.make CMakeFiles/cmTC_4eeae.dir/build
-make[1]: Entering directory '/home/hojin/drone_ws/mpc_ws/build/mav_planning_msgs/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_4eeae.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_4eeae.dir/CheckSymbolExists.c.o   -c /home/hojin/drone_ws/mpc_ws/build/mav_planning_msgs/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_4eeae
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4eeae.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_4eeae.dir/CheckSymbolExists.c.o  -o cmTC_4eeae 
-CMakeFiles/cmTC_4eeae.dir/CheckSymbolExists.c.o: In function `main':
-CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+Run Build Command:"/usr/bin/make" "cmTC_0a772/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0a772.dir/build.make CMakeFiles/cmTC_0a772.dir/build
+make[1]: Entering directory '/home/slam01/dronw_ws/MPC_WS_PX4/build/mav_planning_msgs/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0a772.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_0a772.dir/CheckSymbolExists.c.o   -c /home/slam01/dronw_ws/MPC_WS_PX4/build/mav_planning_msgs/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_0a772
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0a772.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_0a772.dir/CheckSymbolExists.c.o  -o cmTC_0a772 
+CMakeFiles/cmTC_0a772.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x14): undefined reference to `pthread_create'
+CheckSymbolExists.c:(.text+0x18): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_4eeae.dir/build.make:97: recipe for target 'cmTC_4eeae' failed
-make[1]: *** [cmTC_4eeae] Error 1
-make[1]: Leaving directory '/home/hojin/drone_ws/mpc_ws/build/mav_planning_msgs/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_4eeae/fast' failed
-make: *** [cmTC_4eeae/fast] Error 2
+CMakeFiles/cmTC_0a772.dir/build.make:97: recipe for target 'cmTC_0a772' failed
+make[1]: *** [cmTC_0a772] Error 1
+make[1]: Leaving directory '/home/slam01/dronw_ws/MPC_WS_PX4/build/mav_planning_msgs/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_0a772/fast' failed
+make: *** [cmTC_0a772/fast] Error 2
 
-File /home/hojin/drone_ws/mpc_ws/build/mav_planning_msgs/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/slam01/dronw_ws/MPC_WS_PX4/build/mav_planning_msgs/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 
@@ -34,22 +35,22 @@ int main(int argc, char** argv)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/hojin/drone_ws/mpc_ws/build/mav_planning_msgs/CMakeFiles/CMakeTmp
+Change Dir: /home/slam01/dronw_ws/MPC_WS_PX4/build/mav_planning_msgs/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_d9df5/fast"
-/usr/bin/make -f CMakeFiles/cmTC_d9df5.dir/build.make CMakeFiles/cmTC_d9df5.dir/build
-make[1]: Entering directory '/home/hojin/drone_ws/mpc_ws/build/mav_planning_msgs/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_d9df5.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_d9df5.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_d9df5
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d9df5.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_d9df5.dir/CheckFunctionExists.c.o  -o cmTC_d9df5 -lpthreads 
+Run Build Command:"/usr/bin/make" "cmTC_60afb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_60afb.dir/build.make CMakeFiles/cmTC_60afb.dir/build
+make[1]: Entering directory '/home/slam01/dronw_ws/MPC_WS_PX4/build/mav_planning_msgs/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_60afb.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_60afb.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_60afb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_60afb.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_60afb.dir/CheckFunctionExists.c.o  -o cmTC_60afb -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_d9df5.dir/build.make:97: recipe for target 'cmTC_d9df5' failed
-make[1]: *** [cmTC_d9df5] Error 1
-make[1]: Leaving directory '/home/hojin/drone_ws/mpc_ws/build/mav_planning_msgs/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_d9df5/fast' failed
-make: *** [cmTC_d9df5/fast] Error 2
+CMakeFiles/cmTC_60afb.dir/build.make:97: recipe for target 'cmTC_60afb' failed
+make[1]: *** [cmTC_60afb] Error 1
+make[1]: Leaving directory '/home/slam01/dronw_ws/MPC_WS_PX4/build/mav_planning_msgs/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_60afb/fast' failed
+make: *** [cmTC_60afb/fast] Error 2
 
 

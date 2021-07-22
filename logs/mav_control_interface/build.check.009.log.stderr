@@ -1,0 +1,44 @@
+[33m[1mCMake Warning[0m at /opt/ros/melodic/share/cmake_modules/cmake/Modules/FindEigen.cmake:62 (message):
+  The FindEigen.cmake Module in the cmake_modules package is deprecated.
+
+  Please use the FindEigen3.cmake Module provided with Eigen.  Change
+  instances of find_package(Eigen) to find_package(Eigen3).  Check the
+  FindEigen3.cmake Module for the resulting CMake variable names.
+
+[36mCall Stack (most recent call first):[0m
+  CMakeLists.txt:11 (find_package)
+
+
+[33m[1mCMake Warning[0m at /opt/ros/melodic/share/catkin/cmake/catkin_package.cmake:166 (message):
+  catkin_package() DEPENDS on 'Boost' but neither 'Boost_INCLUDE_DIRS' nor
+  'Boost_LIBRARIES' is defined.
+[36mCall Stack (most recent call first):[0m
+  /opt/ros/melodic/share/catkin/cmake/catkin_package.cmake:102 (_catkin_package)
+  CMakeLists.txt:35 (catkin_package)
+
+
+[33m[1mCMake Warning[0m at /opt/ros/melodic/share/catkin/cmake/catkin_package.cmake:166 (message):
+  catkin_package() DEPENDS on 'EIGEN3' but neither 'EIGEN3_INCLUDE_DIRS' nor
+  'EIGEN3_LIBRARIES' is defined.
+[36mCall Stack (most recent call first):[0m
+  /opt/ros/melodic/share/catkin/cmake/catkin_package.cmake:102 (_catkin_package)
+  CMakeLists.txt:35 (catkin_package)
+
+
+[33m[1mCMake Warning[0m at /opt/ros/melodic/share/catkin/cmake/catkin_package.cmake:166 (message):
+  catkin_package() DEPENDS on 'GeographicLib' but neither
+  'GeographicLib_INCLUDE_DIRS' nor 'GeographicLib_LIBRARIES' is defined.
+[36mCall Stack (most recent call first):[0m
+  /opt/ros/melodic/share/catkin/cmake/catkin_package.cmake:102 (_catkin_package)
+  CMakeLists.txt:35 (catkin_package)
+
+
+[31m[1mCMake Error[0m at /opt/ros/melodic/share/catkin/cmake/catkin_package.cmake:224 (message):
+  catkin_package() DEPENDS on the catkin package 'diagnostic_msgs' which must
+  therefore be listed as a run dependency in the package.xml
+[36mCall Stack (most recent call first):[0m
+  /opt/ros/melodic/share/catkin/cmake/catkin_package.cmake:102 (_catkin_package)
+  CMakeLists.txt:35 (catkin_package)
+
+
+make: *** [cmake_check_build_system] Error 1

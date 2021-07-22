@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hojin/drone_ws/mpc_ws/src/mav_control_rw/mav_control_interface
+CMAKE_SOURCE_DIR = /home/slam01/dronw_ws/MPC_WS_PX4/src/mav_control_rw/mav_control_interface
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hojin/drone_ws/mpc_ws/build/mav_control_interface
+CMAKE_BINARY_DIR = /home/slam01/dronw_ws/MPC_WS_PX4/build/mav_control_interface
 
 # Utility rule file for actionlib_generate_messages_nodejs.
 
@@ -67,6 +67,6 @@ CMakeFiles/actionlib_generate_messages_nodejs.dir/clean:
 .PHONY : CMakeFiles/actionlib_generate_messages_nodejs.dir/clean
 
 CMakeFiles/actionlib_generate_messages_nodejs.dir/depend:
-	cd /home/hojin/drone_ws/mpc_ws/build/mav_control_interface && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hojin/drone_ws/mpc_ws/src/mav_control_rw/mav_control_interface /home/hojin/drone_ws/mpc_ws/src/mav_control_rw/mav_control_interface /home/hojin/drone_ws/mpc_ws/build/mav_control_interface /home/hojin/drone_ws/mpc_ws/build/mav_control_interface /home/hojin/drone_ws/mpc_ws/build/mav_control_interface/CMakeFiles/actionlib_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/slam01/dronw_ws/MPC_WS_PX4/build/mav_control_interface && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/slam01/dronw_ws/MPC_WS_PX4/src/mav_control_rw/mav_control_interface /home/slam01/dronw_ws/MPC_WS_PX4/src/mav_control_rw/mav_control_interface /home/slam01/dronw_ws/MPC_WS_PX4/build/mav_control_interface /home/slam01/dronw_ws/MPC_WS_PX4/build/mav_control_interface /home/slam01/dronw_ws/MPC_WS_PX4/build/mav_control_interface/CMakeFiles/actionlib_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/actionlib_generate_messages_nodejs.dir/depend
 

@@ -6,5 +6,5 @@ CXX_FLAGS =  -std=c++11 -O3 -DNDEBUG -fPIC   -std=c++11 -DBOOST_MPL_CFG_NO_PREPR
 
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"mav_control_interface\" -Dmav_control_interface_EXPORTS
 
-CXX_INCLUDES = -I/home/hojin/drone_ws/mpc_ws/src/mav_control_rw/mav_control_interface/include -I/home/hojin/drone_ws/mpc_ws/devel/.private/mav_msgs/include -I/home/hojin/drone_ws/mpc_ws/src/mav_comm/mav_msgs/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/usr/include/eigen3 
+CXX_INCLUDES = -I/home/slam01/dronw_ws/MPC_WS_PX4/src/mav_control_rw/mav_control_interface/include -I/home/slam01/dronw_ws/MPC_WS_PX4/devel/.private/mav_msgs/include -I/home/slam01/dronw_ws/MPC_WS_PX4/src/mav_comm/mav_msgs/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/usr/include/eigen3 
 

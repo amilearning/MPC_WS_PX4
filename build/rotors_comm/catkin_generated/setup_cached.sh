@@ -7,7 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/hojin/drone_ws/mpc_ws/devel/.private/rotors_comm:$CMAKE_PREFIX_PATH"
-export PWD='/home/hojin/drone_ws/mpc_ws/build/rotors_comm'
-export ROSLISP_PACKAGE_DIRECTORIES="/home/hojin/drone_ws/mpc_ws/devel/.private/rotors_comm/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/hojin/drone_ws/mpc_ws/src/rotors_simulator/rotors_comm:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/slam01/dronw_ws/MPC_WS_PX4/devel/.private/rotors_comm:$CMAKE_PREFIX_PATH"
+export PWD='/home/slam01/dronw_ws/MPC_WS_PX4/build/rotors_comm'
+export ROSLISP_PACKAGE_DIRECTORIES="/home/slam01/dronw_ws/MPC_WS_PX4/devel/.private/rotors_comm/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/home/slam01/dronw_ws/MPC_WS_PX4/src/rotors_simulator/rotors_comm:$ROS_PACKAGE_PATH"

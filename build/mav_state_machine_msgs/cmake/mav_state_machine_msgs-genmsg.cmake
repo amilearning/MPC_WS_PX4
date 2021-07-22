@@ -2,7 +2,7 @@
 
 message(STATUS "mav_state_machine_msgs: 1 messages, 1 services")
 
-set(MSG_I_FLAGS "-Imav_state_machine_msgs:/home/hojin/drone_ws/mpc_ws/src/mav_comm/mav_state_machine_msgs/msg;-Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg")
+set(MSG_I_FLAGS "-Imav_state_machine_msgs:/home/slam01/dronw_ws/MPC_WS_PX4/src/mav_comm/mav_state_machine_msgs/msg;-Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg")
 
 # Find all generators
 find_package(gencpp REQUIRED)
@@ -17,14 +17,14 @@ add_custom_target(mav_state_machine_msgs_generate_messages ALL)
 
 
 
-get_filename_component(_filename "/home/hojin/drone_ws/mpc_ws/src/mav_comm/mav_state_machine_msgs/msg/StartStopTask.msg" NAME_WE)
+get_filename_component(_filename "/home/slam01/dronw_ws/MPC_WS_PX4/src/mav_comm/mav_state_machine_msgs/srv/RunTaskService.srv" NAME_WE)
 add_custom_target(_mav_state_machine_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "mav_state_machine_msgs" "/home/hojin/drone_ws/mpc_ws/src/mav_comm/mav_state_machine_msgs/msg/StartStopTask.msg" "std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "mav_state_machine_msgs" "/home/slam01/dronw_ws/MPC_WS_PX4/src/mav_comm/mav_state_machine_msgs/srv/RunTaskService.srv" ""
 )
 
-get_filename_component(_filename "/home/hojin/drone_ws/mpc_ws/src/mav_comm/mav_state_machine_msgs/srv/RunTaskService.srv" NAME_WE)
+get_filename_component(_filename "/home/slam01/dronw_ws/MPC_WS_PX4/src/mav_comm/mav_state_machine_msgs/msg/StartStopTask.msg" NAME_WE)
 add_custom_target(_mav_state_machine_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "mav_state_machine_msgs" "/home/hojin/drone_ws/mpc_ws/src/mav_comm/mav_state_machine_msgs/srv/RunTaskService.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "mav_state_machine_msgs" "/home/slam01/dronw_ws/MPC_WS_PX4/src/mav_comm/mav_state_machine_msgs/msg/StartStopTask.msg" "std_msgs/Header"
 )
 
 #
@@ -34,7 +34,7 @@ add_custom_target(_mav_state_machine_msgs_generate_messages_check_deps_${_filena
 ### Section generating for lang: gencpp
 ### Generating Messages
 _generate_msg_cpp(mav_state_machine_msgs
-  "/home/hojin/drone_ws/mpc_ws/src/mav_comm/mav_state_machine_msgs/msg/StartStopTask.msg"
+  "/home/slam01/dronw_ws/MPC_WS_PX4/src/mav_comm/mav_state_machine_msgs/msg/StartStopTask.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mav_state_machine_msgs
@@ -42,7 +42,7 @@ _generate_msg_cpp(mav_state_machine_msgs
 
 ### Generating Services
 _generate_srv_cpp(mav_state_machine_msgs
-  "/home/hojin/drone_ws/mpc_ws/src/mav_comm/mav_state_machine_msgs/srv/RunTaskService.srv"
+  "/home/slam01/dronw_ws/MPC_WS_PX4/src/mav_comm/mav_state_machine_msgs/srv/RunTaskService.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mav_state_machine_msgs
@@ -60,9 +60,9 @@ add_custom_target(mav_state_machine_msgs_generate_messages_cpp
 add_dependencies(mav_state_machine_msgs_generate_messages mav_state_machine_msgs_generate_messages_cpp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/hojin/drone_ws/mpc_ws/src/mav_comm/mav_state_machine_msgs/msg/StartStopTask.msg" NAME_WE)
+get_filename_component(_filename "/home/slam01/dronw_ws/MPC_WS_PX4/src/mav_comm/mav_state_machine_msgs/srv/RunTaskService.srv" NAME_WE)
 add_dependencies(mav_state_machine_msgs_generate_messages_cpp _mav_state_machine_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/hojin/drone_ws/mpc_ws/src/mav_comm/mav_state_machine_msgs/srv/RunTaskService.srv" NAME_WE)
+get_filename_component(_filename "/home/slam01/dronw_ws/MPC_WS_PX4/src/mav_comm/mav_state_machine_msgs/msg/StartStopTask.msg" NAME_WE)
 add_dependencies(mav_state_machine_msgs_generate_messages_cpp _mav_state_machine_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -75,7 +75,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS mav_state_machine_msgs_generate_mes
 ### Section generating for lang: geneus
 ### Generating Messages
 _generate_msg_eus(mav_state_machine_msgs
-  "/home/hojin/drone_ws/mpc_ws/src/mav_comm/mav_state_machine_msgs/msg/StartStopTask.msg"
+  "/home/slam01/dronw_ws/MPC_WS_PX4/src/mav_comm/mav_state_machine_msgs/msg/StartStopTask.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/mav_state_machine_msgs
@@ -83,7 +83,7 @@ _generate_msg_eus(mav_state_machine_msgs
 
 ### Generating Services
 _generate_srv_eus(mav_state_machine_msgs
-  "/home/hojin/drone_ws/mpc_ws/src/mav_comm/mav_state_machine_msgs/srv/RunTaskService.srv"
+  "/home/slam01/dronw_ws/MPC_WS_PX4/src/mav_comm/mav_state_machine_msgs/srv/RunTaskService.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/mav_state_machine_msgs
@@ -101,9 +101,9 @@ add_custom_target(mav_state_machine_msgs_generate_messages_eus
 add_dependencies(mav_state_machine_msgs_generate_messages mav_state_machine_msgs_generate_messages_eus)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/hojin/drone_ws/mpc_ws/src/mav_comm/mav_state_machine_msgs/msg/StartStopTask.msg" NAME_WE)
+get_filename_component(_filename "/home/slam01/dronw_ws/MPC_WS_PX4/src/mav_comm/mav_state_machine_msgs/srv/RunTaskService.srv" NAME_WE)
 add_dependencies(mav_state_machine_msgs_generate_messages_eus _mav_state_machine_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/hojin/drone_ws/mpc_ws/src/mav_comm/mav_state_machine_msgs/srv/RunTaskService.srv" NAME_WE)
+get_filename_component(_filename "/home/slam01/dronw_ws/MPC_WS_PX4/src/mav_comm/mav_state_machine_msgs/msg/StartStopTask.msg" NAME_WE)
 add_dependencies(mav_state_machine_msgs_generate_messages_eus _mav_state_machine_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -116,7 +116,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS mav_state_machine_msgs_generate_mes
 ### Section generating for lang: genlisp
 ### Generating Messages
 _generate_msg_lisp(mav_state_machine_msgs
-  "/home/hojin/drone_ws/mpc_ws/src/mav_comm/mav_state_machine_msgs/msg/StartStopTask.msg"
+  "/home/slam01/dronw_ws/MPC_WS_PX4/src/mav_comm/mav_state_machine_msgs/msg/StartStopTask.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mav_state_machine_msgs
@@ -124,7 +124,7 @@ _generate_msg_lisp(mav_state_machine_msgs
 
 ### Generating Services
 _generate_srv_lisp(mav_state_machine_msgs
-  "/home/hojin/drone_ws/mpc_ws/src/mav_comm/mav_state_machine_msgs/srv/RunTaskService.srv"
+  "/home/slam01/dronw_ws/MPC_WS_PX4/src/mav_comm/mav_state_machine_msgs/srv/RunTaskService.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mav_state_machine_msgs
@@ -142,9 +142,9 @@ add_custom_target(mav_state_machine_msgs_generate_messages_lisp
 add_dependencies(mav_state_machine_msgs_generate_messages mav_state_machine_msgs_generate_messages_lisp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/hojin/drone_ws/mpc_ws/src/mav_comm/mav_state_machine_msgs/msg/StartStopTask.msg" NAME_WE)
+get_filename_component(_filename "/home/slam01/dronw_ws/MPC_WS_PX4/src/mav_comm/mav_state_machine_msgs/srv/RunTaskService.srv" NAME_WE)
 add_dependencies(mav_state_machine_msgs_generate_messages_lisp _mav_state_machine_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/hojin/drone_ws/mpc_ws/src/mav_comm/mav_state_machine_msgs/srv/RunTaskService.srv" NAME_WE)
+get_filename_component(_filename "/home/slam01/dronw_ws/MPC_WS_PX4/src/mav_comm/mav_state_machine_msgs/msg/StartStopTask.msg" NAME_WE)
 add_dependencies(mav_state_machine_msgs_generate_messages_lisp _mav_state_machine_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -157,7 +157,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS mav_state_machine_msgs_generate_mes
 ### Section generating for lang: gennodejs
 ### Generating Messages
 _generate_msg_nodejs(mav_state_machine_msgs
-  "/home/hojin/drone_ws/mpc_ws/src/mav_comm/mav_state_machine_msgs/msg/StartStopTask.msg"
+  "/home/slam01/dronw_ws/MPC_WS_PX4/src/mav_comm/mav_state_machine_msgs/msg/StartStopTask.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/mav_state_machine_msgs
@@ -165,7 +165,7 @@ _generate_msg_nodejs(mav_state_machine_msgs
 
 ### Generating Services
 _generate_srv_nodejs(mav_state_machine_msgs
-  "/home/hojin/drone_ws/mpc_ws/src/mav_comm/mav_state_machine_msgs/srv/RunTaskService.srv"
+  "/home/slam01/dronw_ws/MPC_WS_PX4/src/mav_comm/mav_state_machine_msgs/srv/RunTaskService.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/mav_state_machine_msgs
@@ -183,9 +183,9 @@ add_custom_target(mav_state_machine_msgs_generate_messages_nodejs
 add_dependencies(mav_state_machine_msgs_generate_messages mav_state_machine_msgs_generate_messages_nodejs)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/hojin/drone_ws/mpc_ws/src/mav_comm/mav_state_machine_msgs/msg/StartStopTask.msg" NAME_WE)
+get_filename_component(_filename "/home/slam01/dronw_ws/MPC_WS_PX4/src/mav_comm/mav_state_machine_msgs/srv/RunTaskService.srv" NAME_WE)
 add_dependencies(mav_state_machine_msgs_generate_messages_nodejs _mav_state_machine_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/hojin/drone_ws/mpc_ws/src/mav_comm/mav_state_machine_msgs/srv/RunTaskService.srv" NAME_WE)
+get_filename_component(_filename "/home/slam01/dronw_ws/MPC_WS_PX4/src/mav_comm/mav_state_machine_msgs/msg/StartStopTask.msg" NAME_WE)
 add_dependencies(mav_state_machine_msgs_generate_messages_nodejs _mav_state_machine_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -198,7 +198,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS mav_state_machine_msgs_generate_mes
 ### Section generating for lang: genpy
 ### Generating Messages
 _generate_msg_py(mav_state_machine_msgs
-  "/home/hojin/drone_ws/mpc_ws/src/mav_comm/mav_state_machine_msgs/msg/StartStopTask.msg"
+  "/home/slam01/dronw_ws/MPC_WS_PX4/src/mav_comm/mav_state_machine_msgs/msg/StartStopTask.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mav_state_machine_msgs
@@ -206,7 +206,7 @@ _generate_msg_py(mav_state_machine_msgs
 
 ### Generating Services
 _generate_srv_py(mav_state_machine_msgs
-  "/home/hojin/drone_ws/mpc_ws/src/mav_comm/mav_state_machine_msgs/srv/RunTaskService.srv"
+  "/home/slam01/dronw_ws/MPC_WS_PX4/src/mav_comm/mav_state_machine_msgs/srv/RunTaskService.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mav_state_machine_msgs
@@ -224,9 +224,9 @@ add_custom_target(mav_state_machine_msgs_generate_messages_py
 add_dependencies(mav_state_machine_msgs_generate_messages mav_state_machine_msgs_generate_messages_py)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/hojin/drone_ws/mpc_ws/src/mav_comm/mav_state_machine_msgs/msg/StartStopTask.msg" NAME_WE)
+get_filename_component(_filename "/home/slam01/dronw_ws/MPC_WS_PX4/src/mav_comm/mav_state_machine_msgs/srv/RunTaskService.srv" NAME_WE)
 add_dependencies(mav_state_machine_msgs_generate_messages_py _mav_state_machine_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/hojin/drone_ws/mpc_ws/src/mav_comm/mav_state_machine_msgs/srv/RunTaskService.srv" NAME_WE)
+get_filename_component(_filename "/home/slam01/dronw_ws/MPC_WS_PX4/src/mav_comm/mav_state_machine_msgs/msg/StartStopTask.msg" NAME_WE)
 add_dependencies(mav_state_machine_msgs_generate_messages_py _mav_state_machine_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility

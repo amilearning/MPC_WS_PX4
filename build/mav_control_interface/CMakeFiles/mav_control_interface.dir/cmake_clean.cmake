@@ -7,8 +7,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/mav_control_interface.dir/src/rc_interface_aci.cpp.o"
   "CMakeFiles/mav_control_interface.dir/src/state_machine.cpp.o"
   "CMakeFiles/mav_control_interface.dir/src/mpc_queue.cpp.o"
-  "/home/hojin/drone_ws/mpc_ws/devel/.private/mav_control_interface/lib/libmav_control_interface.pdb"
-  "/home/hojin/drone_ws/mpc_ws/devel/.private/mav_control_interface/lib/libmav_control_interface.so"
+  "/home/slam01/dronw_ws/MPC_WS_PX4/devel/.private/mav_control_interface/lib/libmav_control_interface.pdb"
+  "/home/slam01/dronw_ws/MPC_WS_PX4/devel/.private/mav_control_interface/lib/libmav_control_interface.so"
 )
 
 # Per-language clean rules from dependency scanning.

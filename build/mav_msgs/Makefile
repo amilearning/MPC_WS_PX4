@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hojin/drone_ws/mpc_ws/src/mav_comm/mav_msgs
+CMAKE_SOURCE_DIR = /home/slam01/dronw_ws/MPC_WS_PX4/src/mav_comm/mav_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hojin/drone_ws/mpc_ws/build/mav_msgs
+CMAKE_BINARY_DIR = /home/slam01/dronw_ws/MPC_WS_PX4/build/mav_msgs
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -91,8 +91,8 @@ rebuild_cache/fast: rebuild_cache
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
+	/usr/bin/ccmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -137,9 +137,9 @@ install/local/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hojin/drone_ws/mpc_ws/build/mav_msgs/CMakeFiles /home/hojin/drone_ws/mpc_ws/build/mav_msgs/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/slam01/dronw_ws/MPC_WS_PX4/build/mav_msgs/CMakeFiles /home/slam01/dronw_ws/MPC_WS_PX4/build/mav_msgs/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hojin/drone_ws/mpc_ws/build/mav_msgs/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/slam01/dronw_ws/MPC_WS_PX4/build/mav_msgs/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -519,43 +519,43 @@ mav_msgs_generate_messages_lisp/fast:
 .PHONY : mav_msgs_generate_messages_lisp/fast
 
 #=============================================================================
-# Target rules for targets named std_msgs_generate_messages_lisp
+# Target rules for targets named _mav_msgs_generate_messages_check_deps_RollPitchYawrateThrust
 
 # Build rule for target.
-std_msgs_generate_messages_lisp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 std_msgs_generate_messages_lisp
-.PHONY : std_msgs_generate_messages_lisp
+_mav_msgs_generate_messages_check_deps_RollPitchYawrateThrust: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _mav_msgs_generate_messages_check_deps_RollPitchYawrateThrust
+.PHONY : _mav_msgs_generate_messages_check_deps_RollPitchYawrateThrust
 
 # fast build rule for target.
-std_msgs_generate_messages_lisp/fast:
-	$(MAKE) -f CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make CMakeFiles/std_msgs_generate_messages_lisp.dir/build
-.PHONY : std_msgs_generate_messages_lisp/fast
+_mav_msgs_generate_messages_check_deps_RollPitchYawrateThrust/fast:
+	$(MAKE) -f CMakeFiles/_mav_msgs_generate_messages_check_deps_RollPitchYawrateThrust.dir/build.make CMakeFiles/_mav_msgs_generate_messages_check_deps_RollPitchYawrateThrust.dir/build
+.PHONY : _mav_msgs_generate_messages_check_deps_RollPitchYawrateThrust/fast
 
 #=============================================================================
-# Target rules for targets named mav_msgs_geneus
+# Target rules for targets named mav_msgs_generate_messages_eus
 
 # Build rule for target.
-mav_msgs_geneus: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 mav_msgs_geneus
-.PHONY : mav_msgs_geneus
+mav_msgs_generate_messages_eus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 mav_msgs_generate_messages_eus
+.PHONY : mav_msgs_generate_messages_eus
 
 # fast build rule for target.
-mav_msgs_geneus/fast:
-	$(MAKE) -f CMakeFiles/mav_msgs_geneus.dir/build.make CMakeFiles/mav_msgs_geneus.dir/build
-.PHONY : mav_msgs_geneus/fast
+mav_msgs_generate_messages_eus/fast:
+	$(MAKE) -f CMakeFiles/mav_msgs_generate_messages_eus.dir/build.make CMakeFiles/mav_msgs_generate_messages_eus.dir/build
+.PHONY : mav_msgs_generate_messages_eus/fast
 
 #=============================================================================
-# Target rules for targets named _mav_msgs_generate_messages_check_deps_RateThrust
+# Target rules for targets named _mav_msgs_generate_messages_check_deps_TorqueThrust
 
 # Build rule for target.
-_mav_msgs_generate_messages_check_deps_RateThrust: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 _mav_msgs_generate_messages_check_deps_RateThrust
-.PHONY : _mav_msgs_generate_messages_check_deps_RateThrust
+_mav_msgs_generate_messages_check_deps_TorqueThrust: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _mav_msgs_generate_messages_check_deps_TorqueThrust
+.PHONY : _mav_msgs_generate_messages_check_deps_TorqueThrust
 
 # fast build rule for target.
-_mav_msgs_generate_messages_check_deps_RateThrust/fast:
-	$(MAKE) -f CMakeFiles/_mav_msgs_generate_messages_check_deps_RateThrust.dir/build.make CMakeFiles/_mav_msgs_generate_messages_check_deps_RateThrust.dir/build
-.PHONY : _mav_msgs_generate_messages_check_deps_RateThrust/fast
+_mav_msgs_generate_messages_check_deps_TorqueThrust/fast:
+	$(MAKE) -f CMakeFiles/_mav_msgs_generate_messages_check_deps_TorqueThrust.dir/build.make CMakeFiles/_mav_msgs_generate_messages_check_deps_TorqueThrust.dir/build
+.PHONY : _mav_msgs_generate_messages_check_deps_TorqueThrust/fast
 
 #=============================================================================
 # Target rules for targets named _mav_msgs_generate_messages_check_deps_FilteredSensorData
@@ -569,6 +569,19 @@ _mav_msgs_generate_messages_check_deps_FilteredSensorData: cmake_check_build_sys
 _mav_msgs_generate_messages_check_deps_FilteredSensorData/fast:
 	$(MAKE) -f CMakeFiles/_mav_msgs_generate_messages_check_deps_FilteredSensorData.dir/build.make CMakeFiles/_mav_msgs_generate_messages_check_deps_FilteredSensorData.dir/build
 .PHONY : _mav_msgs_generate_messages_check_deps_FilteredSensorData/fast
+
+#=============================================================================
+# Target rules for targets named _mav_msgs_generate_messages_check_deps_RateThrust
+
+# Build rule for target.
+_mav_msgs_generate_messages_check_deps_RateThrust: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _mav_msgs_generate_messages_check_deps_RateThrust
+.PHONY : _mav_msgs_generate_messages_check_deps_RateThrust
+
+# fast build rule for target.
+_mav_msgs_generate_messages_check_deps_RateThrust/fast:
+	$(MAKE) -f CMakeFiles/_mav_msgs_generate_messages_check_deps_RateThrust.dir/build.make CMakeFiles/_mav_msgs_generate_messages_check_deps_RateThrust.dir/build
+.PHONY : _mav_msgs_generate_messages_check_deps_RateThrust/fast
 
 #=============================================================================
 # Target rules for targets named _mav_msgs_generate_messages_check_deps_Actuators
@@ -597,17 +610,17 @@ mav_msgs_gencpp/fast:
 .PHONY : mav_msgs_gencpp/fast
 
 #=============================================================================
-# Target rules for targets named _mav_msgs_generate_messages_check_deps_TorqueThrust
+# Target rules for targets named _mav_msgs_generate_messages_check_deps_AttitudeThrust
 
 # Build rule for target.
-_mav_msgs_generate_messages_check_deps_TorqueThrust: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 _mav_msgs_generate_messages_check_deps_TorqueThrust
-.PHONY : _mav_msgs_generate_messages_check_deps_TorqueThrust
+_mav_msgs_generate_messages_check_deps_AttitudeThrust: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _mav_msgs_generate_messages_check_deps_AttitudeThrust
+.PHONY : _mav_msgs_generate_messages_check_deps_AttitudeThrust
 
 # fast build rule for target.
-_mav_msgs_generate_messages_check_deps_TorqueThrust/fast:
-	$(MAKE) -f CMakeFiles/_mav_msgs_generate_messages_check_deps_TorqueThrust.dir/build.make CMakeFiles/_mav_msgs_generate_messages_check_deps_TorqueThrust.dir/build
-.PHONY : _mav_msgs_generate_messages_check_deps_TorqueThrust/fast
+_mav_msgs_generate_messages_check_deps_AttitudeThrust/fast:
+	$(MAKE) -f CMakeFiles/_mav_msgs_generate_messages_check_deps_AttitudeThrust.dir/build.make CMakeFiles/_mav_msgs_generate_messages_check_deps_AttitudeThrust.dir/build
+.PHONY : _mav_msgs_generate_messages_check_deps_AttitudeThrust/fast
 
 #=============================================================================
 # Target rules for targets named _mav_msgs_generate_messages_check_deps_Status
@@ -623,43 +636,30 @@ _mav_msgs_generate_messages_check_deps_Status/fast:
 .PHONY : _mav_msgs_generate_messages_check_deps_Status/fast
 
 #=============================================================================
-# Target rules for targets named _mav_msgs_generate_messages_check_deps_AttitudeThrust
+# Target rules for targets named std_msgs_generate_messages_lisp
 
 # Build rule for target.
-_mav_msgs_generate_messages_check_deps_AttitudeThrust: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 _mav_msgs_generate_messages_check_deps_AttitudeThrust
-.PHONY : _mav_msgs_generate_messages_check_deps_AttitudeThrust
+std_msgs_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 std_msgs_generate_messages_lisp
+.PHONY : std_msgs_generate_messages_lisp
 
 # fast build rule for target.
-_mav_msgs_generate_messages_check_deps_AttitudeThrust/fast:
-	$(MAKE) -f CMakeFiles/_mav_msgs_generate_messages_check_deps_AttitudeThrust.dir/build.make CMakeFiles/_mav_msgs_generate_messages_check_deps_AttitudeThrust.dir/build
-.PHONY : _mav_msgs_generate_messages_check_deps_AttitudeThrust/fast
+std_msgs_generate_messages_lisp/fast:
+	$(MAKE) -f CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make CMakeFiles/std_msgs_generate_messages_lisp.dir/build
+.PHONY : std_msgs_generate_messages_lisp/fast
 
 #=============================================================================
-# Target rules for targets named mav_msgs_generate_messages_eus
+# Target rules for targets named mav_msgs_geneus
 
 # Build rule for target.
-mav_msgs_generate_messages_eus: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 mav_msgs_generate_messages_eus
-.PHONY : mav_msgs_generate_messages_eus
+mav_msgs_geneus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 mav_msgs_geneus
+.PHONY : mav_msgs_geneus
 
 # fast build rule for target.
-mav_msgs_generate_messages_eus/fast:
-	$(MAKE) -f CMakeFiles/mav_msgs_generate_messages_eus.dir/build.make CMakeFiles/mav_msgs_generate_messages_eus.dir/build
-.PHONY : mav_msgs_generate_messages_eus/fast
-
-#=============================================================================
-# Target rules for targets named _mav_msgs_generate_messages_check_deps_RollPitchYawrateThrust
-
-# Build rule for target.
-_mav_msgs_generate_messages_check_deps_RollPitchYawrateThrust: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 _mav_msgs_generate_messages_check_deps_RollPitchYawrateThrust
-.PHONY : _mav_msgs_generate_messages_check_deps_RollPitchYawrateThrust
-
-# fast build rule for target.
-_mav_msgs_generate_messages_check_deps_RollPitchYawrateThrust/fast:
-	$(MAKE) -f CMakeFiles/_mav_msgs_generate_messages_check_deps_RollPitchYawrateThrust.dir/build.make CMakeFiles/_mav_msgs_generate_messages_check_deps_RollPitchYawrateThrust.dir/build
-.PHONY : _mav_msgs_generate_messages_check_deps_RollPitchYawrateThrust/fast
+mav_msgs_geneus/fast:
+	$(MAKE) -f CMakeFiles/mav_msgs_geneus.dir/build.make CMakeFiles/mav_msgs_geneus.dir/build
+.PHONY : mav_msgs_geneus/fast
 
 #=============================================================================
 # Target rules for targets named mav_msgs_generate_messages_cpp
@@ -779,17 +779,17 @@ help:
 	@echo "... _mav_msgs_generate_messages_check_deps_GpsWaypoint"
 	@echo "... trajectory_msgs_generate_messages_lisp"
 	@echo "... mav_msgs_generate_messages_lisp"
-	@echo "... std_msgs_generate_messages_lisp"
-	@echo "... mav_msgs_geneus"
-	@echo "... _mav_msgs_generate_messages_check_deps_RateThrust"
+	@echo "... _mav_msgs_generate_messages_check_deps_RollPitchYawrateThrust"
+	@echo "... mav_msgs_generate_messages_eus"
+	@echo "... _mav_msgs_generate_messages_check_deps_TorqueThrust"
 	@echo "... _mav_msgs_generate_messages_check_deps_FilteredSensorData"
+	@echo "... _mav_msgs_generate_messages_check_deps_RateThrust"
 	@echo "... _mav_msgs_generate_messages_check_deps_Actuators"
 	@echo "... mav_msgs_gencpp"
-	@echo "... _mav_msgs_generate_messages_check_deps_TorqueThrust"
-	@echo "... _mav_msgs_generate_messages_check_deps_Status"
 	@echo "... _mav_msgs_generate_messages_check_deps_AttitudeThrust"
-	@echo "... mav_msgs_generate_messages_eus"
-	@echo "... _mav_msgs_generate_messages_check_deps_RollPitchYawrateThrust"
+	@echo "... _mav_msgs_generate_messages_check_deps_Status"
+	@echo "... std_msgs_generate_messages_lisp"
+	@echo "... mav_msgs_geneus"
 	@echo "... mav_msgs_generate_messages_cpp"
 	@echo "... mav_msgs_genlisp"
 	@echo "... gmock_main"

@@ -2,7 +2,7 @@
   <arg name="mav_name" default="firefly" />
   <arg name="namespace" default="$(arg mav_name)"/>      
     <node name="mav_nonlinear_mpc" pkg="mav_nonlinear_mpc" type="nonlinear_mpc_node" respawn="true" clear_params="true" output="screen">
-      <remap from="odometry" to="/ground_truth_pose2" />
+      <remap from="odometry" to="/mavros/local_position/odom" />
       <remap from="/command/trajectory" to="/m100/command/trajectory" />
       <!-- <remap from="/mavros/setpoint_raw/roll_pitch_yawrate_thrust" to="/m100/setpoint_raw/roll_pitch_yawrate_thrust" /> -->
       <rosparam file="$(find mav_nonlinear_mpc)/resources/nonlinear_mpc_$(arg mav_name).yaml" />

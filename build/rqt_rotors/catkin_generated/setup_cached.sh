@@ -7,10 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/hojin/drone_ws/mpc_ws/devel/.private/rqt_rotors:$CMAKE_PREFIX_PATH"
-export LD_LIBRARY_PATH="/home/hojin/drone_ws/mpc_ws/devel/.private/rqt_rotors/lib:$LD_LIBRARY_PATH"
-export PKG_CONFIG_PATH="/home/hojin/drone_ws/mpc_ws/devel/.private/rqt_rotors/lib/pkgconfig:$PKG_CONFIG_PATH"
-export PWD='/home/hojin/drone_ws/mpc_ws/build/rqt_rotors'
-export PYTHONPATH="/home/hojin/drone_ws/mpc_ws/devel/.private/rqt_rotors/lib/python2.7/dist-packages:/home/hojin/drone_ws/mpc_ws/devel/lib/python2.7/dist-packages:$PYTHONPATH"
-export ROSLISP_PACKAGE_DIRECTORIES="/home/hojin/drone_ws/mpc_ws/devel/.private/rqt_rotors/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/hojin/drone_ws/mpc_ws/src/rotors_simulator/rqt_rotors:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/slam01/dronw_ws/MPC_WS_PX4/devel/.private/rqt_rotors:$CMAKE_PREFIX_PATH"
+export PWD='/home/slam01/dronw_ws/MPC_WS_PX4/build/rqt_rotors'
+export ROSLISP_PACKAGE_DIRECTORIES="/home/slam01/dronw_ws/MPC_WS_PX4/devel/.private/rqt_rotors/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/home/slam01/dronw_ws/MPC_WS_PX4/src/rotors_simulator/rqt_rotors:$ROS_PACKAGE_PATH"

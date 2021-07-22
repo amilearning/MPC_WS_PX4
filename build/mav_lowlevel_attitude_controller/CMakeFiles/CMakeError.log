@@ -1,24 +1,25 @@
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/hojin/drone_ws/mpc_ws/build/mav_lowlevel_attitude_controller/CMakeFiles/CMakeTmp
+Change Dir: /home/slam01/dronw_ws/MPC_WS_PX4/build/mav_lowlevel_attitude_controller/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_69def/fast"
-/usr/bin/make -f CMakeFiles/cmTC_69def.dir/build.make CMakeFiles/cmTC_69def.dir/build
-make[1]: Entering directory '/home/hojin/drone_ws/mpc_ws/build/mav_lowlevel_attitude_controller/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_69def.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_69def.dir/CheckSymbolExists.c.o   -c /home/hojin/drone_ws/mpc_ws/build/mav_lowlevel_attitude_controller/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_69def
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_69def.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_69def.dir/CheckSymbolExists.c.o  -o cmTC_69def 
-CMakeFiles/cmTC_69def.dir/CheckSymbolExists.c.o: In function `main':
-CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+Run Build Command:"/usr/bin/make" "cmTC_ccbd1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ccbd1.dir/build.make CMakeFiles/cmTC_ccbd1.dir/build
+make[1]: Entering directory '/home/slam01/dronw_ws/MPC_WS_PX4/build/mav_lowlevel_attitude_controller/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ccbd1.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_ccbd1.dir/CheckSymbolExists.c.o   -c /home/slam01/dronw_ws/MPC_WS_PX4/build/mav_lowlevel_attitude_controller/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_ccbd1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ccbd1.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_ccbd1.dir/CheckSymbolExists.c.o  -o cmTC_ccbd1 
+CMakeFiles/cmTC_ccbd1.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x14): undefined reference to `pthread_create'
+CheckSymbolExists.c:(.text+0x18): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_69def.dir/build.make:97: recipe for target 'cmTC_69def' failed
-make[1]: *** [cmTC_69def] Error 1
-make[1]: Leaving directory '/home/hojin/drone_ws/mpc_ws/build/mav_lowlevel_attitude_controller/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_69def/fast' failed
-make: *** [cmTC_69def/fast] Error 2
+CMakeFiles/cmTC_ccbd1.dir/build.make:97: recipe for target 'cmTC_ccbd1' failed
+make[1]: *** [cmTC_ccbd1] Error 1
+make[1]: Leaving directory '/home/slam01/dronw_ws/MPC_WS_PX4/build/mav_lowlevel_attitude_controller/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_ccbd1/fast' failed
+make: *** [cmTC_ccbd1/fast] Error 2
 
-File /home/hojin/drone_ws/mpc_ws/build/mav_lowlevel_attitude_controller/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/slam01/dronw_ws/MPC_WS_PX4/build/mav_lowlevel_attitude_controller/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 
@@ -34,22 +35,22 @@ int main(int argc, char** argv)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/hojin/drone_ws/mpc_ws/build/mav_lowlevel_attitude_controller/CMakeFiles/CMakeTmp
+Change Dir: /home/slam01/dronw_ws/MPC_WS_PX4/build/mav_lowlevel_attitude_controller/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_114f5/fast"
-/usr/bin/make -f CMakeFiles/cmTC_114f5.dir/build.make CMakeFiles/cmTC_114f5.dir/build
-make[1]: Entering directory '/home/hojin/drone_ws/mpc_ws/build/mav_lowlevel_attitude_controller/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_114f5.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_114f5.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_114f5
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_114f5.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_114f5.dir/CheckFunctionExists.c.o  -o cmTC_114f5 -lpthreads 
+Run Build Command:"/usr/bin/make" "cmTC_d6469/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d6469.dir/build.make CMakeFiles/cmTC_d6469.dir/build
+make[1]: Entering directory '/home/slam01/dronw_ws/MPC_WS_PX4/build/mav_lowlevel_attitude_controller/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d6469.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_d6469.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d6469
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d6469.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_d6469.dir/CheckFunctionExists.c.o  -o cmTC_d6469 -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_114f5.dir/build.make:97: recipe for target 'cmTC_114f5' failed
-make[1]: *** [cmTC_114f5] Error 1
-make[1]: Leaving directory '/home/hojin/drone_ws/mpc_ws/build/mav_lowlevel_attitude_controller/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_114f5/fast' failed
-make: *** [cmTC_114f5/fast] Error 2
+CMakeFiles/cmTC_d6469.dir/build.make:97: recipe for target 'cmTC_d6469' failed
+make[1]: *** [cmTC_d6469] Error 1
+make[1]: Leaving directory '/home/slam01/dronw_ws/MPC_WS_PX4/build/mav_lowlevel_attitude_controller/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_d6469/fast' failed
+make: *** [cmTC_d6469/fast] Error 2
 
 

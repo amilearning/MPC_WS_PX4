@@ -3,7 +3,7 @@
 
 # since this file is sourced either use the provided _CATKIN_SETUP_DIR
 # or fall back to the destination set at configure time
-: ${_CATKIN_SETUP_DIR:=/home/hojin/drone_ws/mpc_ws/devel/.private/mav_system_msgs}
+: ${_CATKIN_SETUP_DIR:=/home/slam01/dronw_ws/MPC_WS_PX4/devel/.private/mav_system_msgs}
 CATKIN_SETUP_UTIL_ARGS="--extend --local"
 . "$_CATKIN_SETUP_DIR/setup.sh"
 unset CATKIN_SETUP_UTIL_ARGS

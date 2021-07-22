@@ -1,0 +1,125 @@
+[35m[1mScanning dependencies of target geographic_msgs_generate_messages_py[0m
+[  0%] Built target geographic_msgs_generate_messages_py
+[  0%] Built target mav_disturbance_observer_generate_messages_nodejs
+[  0%] Built target mav_disturbance_observer_generate_messages_lisp
+[  0%] Built target mav_disturbance_observer_generate_messages_eus
+[  0%] Built target mav_disturbance_observer_generate_messages_cpp
+[35m[1mScanning dependencies of target uuid_msgs_generate_messages_nodejs[0m
+[  0%] Built target uuid_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target uuid_msgs_generate_messages_lisp[0m
+[  0%] Built target uuid_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target uuid_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target uuid_msgs_generate_messages_cpp[0m
+[  0%] Built target uuid_msgs_generate_messages_eus
+[  0%] Built target uuid_msgs_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target mav_disturbance_observer_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target trajectory_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target mavros_msgs_generate_messages_cpp[0m
+[  0%] Built target roscpp_generate_messages_py
+[  0%] Built target trajectory_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target mavros_msgs_generate_messages_cpp
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[  0%] Built target trajectory_msgs_generate_messages_nodejs
+[  0%] Built target mav_msgs_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target geographic_msgs_generate_messages_lisp[0m
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target geographic_msgs_generate_messages_lisp
+[  0%] Built target trajectory_msgs_generate_messages_py
+[35m[1mScanning dependencies of target uuid_msgs_generate_messages_py[0m
+[  0%] Built target uuid_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target actionlib_msgs_generate_messages_nodejs
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[  0%] Built target actionlib_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target actionlib_msgs_generate_messages_py
+[  0%] Built target mav_msgs_generate_messages_eus
+[  0%] Built target trajectory_msgs_generate_messages_lisp
+[  0%] Built target mav_msgs_generate_messages_nodejs
+[  0%] Built target actionlib_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target geographic_msgs_generate_messages_cpp[0m
+[  0%] Built target dynamic_reconfigure_generate_messages_eus
+[  0%] Built target dynamic_reconfigure_generate_messages_lisp
+[  0%] Built target geographic_msgs_generate_messages_cpp
+[  0%] Built target dynamic_reconfigure_generate_messages_py
+[35m[1mScanning dependencies of target mavros_msgs_generate_messages_nodejs[0m
+[  0%] Built target dynamic_reconfigure_generate_messages_nodejs
+[  0%] Built target mavros_msgs_generate_messages_nodejs
+[  0%] Built target mav_msgs_generate_messages_lisp
+[  0%] Built target tf_generate_messages_lisp
+[  0%] Built target tf_generate_messages_nodejs
+[  0%] Built target dynamic_reconfigure_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_py
+[  0%] Built target tf_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target actionlib_generate_messages_lisp
+[35m[1mScanning dependencies of target geographic_msgs_generate_messages_nodejs[0m
+[  0%] Built target actionlib_generate_messages_nodejs
+[  0%] Built target tf_generate_messages_cpp
+[  0%] Built target geographic_msgs_generate_messages_nodejs
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target tf_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target actionlib_msgs_generate_messages_eus
+[  0%] Built target mav_msgs_generate_messages_cpp
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+[  0%] Built target tf2_msgs_generate_messages_cpp
+[  0%] Built target tf2_msgs_generate_messages_eus
+[  0%] Built target dynamic_reconfigure_gencfg
+[  0%] Built target tf2_msgs_generate_messages_lisp
+[  0%] Built target tf2_msgs_generate_messages_py
+[  0%] Built target actionlib_generate_messages_py
+[35m[1mScanning dependencies of target mavros_msgs_generate_messages_eus[0m
+[  0%] Built target tf2_msgs_generate_messages_nodejs
+[  0%] Built target mavros_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target mavros_msgs_generate_messages_lisp[0m
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target mavros_msgs_generate_messages_py[0m
+[  0%] Built target mavros_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target geographic_msgs_generate_messages_eus[0m
+[  5%] [34m[1mGenerating dynamic reconfigure files from cfg/NonLinearMPC.cfg: /home/slam01/dronw_ws/MPC_WS_PX4/devel/.private/mav_nonlinear_mpc/include/mav_nonlinear_mpc/NonLinearMPCConfig.h /home/slam01/dronw_ws/MPC_WS_PX4/devel/.private/mav_nonlinear_mpc/lib/python2.7/dist-packages/mav_nonlinear_mpc/cfg/NonLinearMPCConfig.py[0m
+[  5%] Built target geographic_msgs_generate_messages_eus
+[  5%] Built target mavros_msgs_generate_messages_py
+[  5%] Built target mav_disturbance_observer_gencfg
+Generating reconfiguration files for NonLinearMPC in mav_nonlinear_mpc
+[  5%] Built target roscpp_generate_messages_cpp
+Wrote header file in /home/slam01/dronw_ws/MPC_WS_PX4/devel/.private/mav_nonlinear_mpc/include/mav_nonlinear_mpc/NonLinearMPCConfig.h
+[  5%] Built target mav_nonlinear_mpc_gencfg
+[35m[1mScanning dependencies of target mav_nonlinear_mpc_lib[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/mav_nonlinear_mpc_lib.dir/src/nonlinear_mpc.cc.o[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/mav_nonlinear_mpc_lib.dir/solver/qpoases/SRC/Constraints.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/mav_nonlinear_mpc_lib.dir/solver/qpoases/SRC/Bounds.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/mav_nonlinear_mpc_lib.dir/solver/qpoases/SRC/CyclingManager.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/mav_nonlinear_mpc_lib.dir/solver/qpoases/SRC/Indexlist.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/mav_nonlinear_mpc_lib.dir/solver/qpoases/SRC/MessageHandling.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/mav_nonlinear_mpc_lib.dir/solver/qpoases/SRC/QProblem.cpp.o[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/mav_nonlinear_mpc_lib.dir/solver/qpoases/SRC/QProblemB.cpp.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/mav_nonlinear_mpc_lib.dir/solver/qpoases/SRC/SubjectTo.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/mav_nonlinear_mpc_lib.dir/solver/qpoases/SRC/Utils.cpp.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/mav_nonlinear_mpc_lib.dir/solver/qpoases/SRC/EXTRAS/SolutionAnalysis.cpp.o[0m
+In file included from [01m[K/home/slam01/dronw_ws/MPC_WS_PX4/src/mav_control_rw/mav_nonlinear_mpc/src/nonlinear_mpc.cc:33:0[m[K:
+[01m[K/home/slam01/dronw_ws/MPC_WS_PX4/src/mav_control_rw/mav_nonlinear_mpc/include/mav_nonlinear_mpc/nonlinear_mpc.h:39:10:[m[K [01;31m[Kfatal error: [m[Kmav_control_interface/mpc_queue.h: No such file or directory
+ #include [01;31m[K<mav_control_interface/mpc_queue.h>[m[K
+          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+CMakeFiles/mav_nonlinear_mpc_lib.dir/build.make:62: recipe for target 'CMakeFiles/mav_nonlinear_mpc_lib.dir/src/nonlinear_mpc.cc.o' failed
+make[2]: *** [CMakeFiles/mav_nonlinear_mpc_lib.dir/src/nonlinear_mpc.cc.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+CMakeFiles/Makefile2:2125: recipe for target 'CMakeFiles/mav_nonlinear_mpc_lib.dir/all' failed
+make[1]: *** [CMakeFiles/mav_nonlinear_mpc_lib.dir/all] Error 2
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2

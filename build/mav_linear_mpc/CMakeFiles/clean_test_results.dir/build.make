@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hojin/drone_ws/mpc_ws/src/mav_control_rw/mav_linear_mpc
+CMAKE_SOURCE_DIR = /home/slam01/dronw_ws/MPC_WS_PX4/src/mav_control_rw/mav_linear_mpc
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hojin/drone_ws/mpc_ws/build/mav_linear_mpc
+CMAKE_BINARY_DIR = /home/slam01/dronw_ws/MPC_WS_PX4/build/mav_linear_mpc
 
 # Utility rule file for clean_test_results.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/hojin/drone_ws/mpc_ws/build/mav_linear_mpc
 include CMakeFiles/clean_test_results.dir/progress.make
 
 CMakeFiles/clean_test_results:
-	/usr/bin/python2 /opt/ros/melodic/share/catkin/cmake/test/remove_test_results.py /home/hojin/drone_ws/mpc_ws/build/mav_linear_mpc/test_results
+	/usr/bin/python2 /opt/ros/melodic/share/catkin/cmake/test/remove_test_results.py /home/slam01/dronw_ws/MPC_WS_PX4/build/mav_linear_mpc/test_results
 
 clean_test_results: CMakeFiles/clean_test_results
 clean_test_results: CMakeFiles/clean_test_results.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/clean_test_results.dir/clean:
 .PHONY : CMakeFiles/clean_test_results.dir/clean
 
 CMakeFiles/clean_test_results.dir/depend:
-	cd /home/hojin/drone_ws/mpc_ws/build/mav_linear_mpc && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hojin/drone_ws/mpc_ws/src/mav_control_rw/mav_linear_mpc /home/hojin/drone_ws/mpc_ws/src/mav_control_rw/mav_linear_mpc /home/hojin/drone_ws/mpc_ws/build/mav_linear_mpc /home/hojin/drone_ws/mpc_ws/build/mav_linear_mpc /home/hojin/drone_ws/mpc_ws/build/mav_linear_mpc/CMakeFiles/clean_test_results.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/slam01/dronw_ws/MPC_WS_PX4/build/mav_linear_mpc && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/slam01/dronw_ws/MPC_WS_PX4/src/mav_control_rw/mav_linear_mpc /home/slam01/dronw_ws/MPC_WS_PX4/src/mav_control_rw/mav_linear_mpc /home/slam01/dronw_ws/MPC_WS_PX4/build/mav_linear_mpc /home/slam01/dronw_ws/MPC_WS_PX4/build/mav_linear_mpc /home/slam01/dronw_ws/MPC_WS_PX4/build/mav_linear_mpc/CMakeFiles/clean_test_results.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/clean_test_results.dir/depend
 

@@ -7,7 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/hojin/drone_ws/mpc_ws/devel/.private/catkin_simple:$CMAKE_PREFIX_PATH"
-export PWD='/home/hojin/drone_ws/mpc_ws/build/catkin_simple'
-export ROSLISP_PACKAGE_DIRECTORIES="/home/hojin/drone_ws/mpc_ws/devel/.private/catkin_simple/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/hojin/drone_ws/mpc_ws/src/catkin_simple:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/slam01/dronw_ws/MPC_WS_PX4/devel/.private/catkin_simple:$CMAKE_PREFIX_PATH"
+export PWD='/home/slam01/dronw_ws/MPC_WS_PX4/build/catkin_simple'
+export ROSLISP_PACKAGE_DIRECTORIES="/home/slam01/dronw_ws/MPC_WS_PX4/devel/.private/catkin_simple/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/home/slam01/dronw_ws/MPC_WS_PX4/src/catkin_simple:$ROS_PACKAGE_PATH"

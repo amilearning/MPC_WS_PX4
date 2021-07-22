@@ -1,0 +1,8 @@
+[01m[K/home/slam01/dronw_ws/MPC_WS_PX4/src/mav_control_rw/mav_control_interface/src/rc_interface_aci.cpp:20:10:[m[K [01;31m[Kfatal error: [m[Kmav_msgs/RCIn.h: No such file or directory
+ #include [01;31m[K<mav_msgs/RCIn.h>[m[K
+          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/mav_control_interface.dir/src/rc_interface_aci.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[1]: *** [CMakeFiles/mav_control_interface.dir/all] Error 2
+make: *** [all] Error 2

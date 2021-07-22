@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "rotors_description"
-PROJECT_SPACE_DIR = "/home/hojin/drone_ws/mpc_ws/devel/.private/rotors_description"
+PROJECT_SPACE_DIR = "/home/slam01/dronw_ws/MPC_WS_PX4/devel/.private/rotors_description"
 PROJECT_VERSION = "2.2.3"

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hojin/drone_ws/mpc_ws/src/rotors_simulator/rotors_description
+CMAKE_SOURCE_DIR = /home/slam01/dronw_ws/MPC_WS_PX4/src/rotors_simulator/rotors_description
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hojin/drone_ws/mpc_ws/build/rotors_description
+CMAKE_BINARY_DIR = /home/slam01/dronw_ws/MPC_WS_PX4/build/rotors_description
 
 # Utility rule file for clean_test_results.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/hojin/drone_ws/mpc_ws/build/rotors_description
 include CMakeFiles/clean_test_results.dir/progress.make
 
 CMakeFiles/clean_test_results:
-	/usr/bin/python2 /opt/ros/melodic/share/catkin/cmake/test/remove_test_results.py /home/hojin/drone_ws/mpc_ws/build/rotors_description/test_results
+	/usr/bin/python2 /opt/ros/melodic/share/catkin/cmake/test/remove_test_results.py /home/slam01/dronw_ws/MPC_WS_PX4/build/rotors_description/test_results
 
 clean_test_results: CMakeFiles/clean_test_results
 clean_test_results: CMakeFiles/clean_test_results.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/clean_test_results.dir/clean:
 .PHONY : CMakeFiles/clean_test_results.dir/clean
 
 CMakeFiles/clean_test_results.dir/depend:
-	cd /home/hojin/drone_ws/mpc_ws/build/rotors_description && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hojin/drone_ws/mpc_ws/src/rotors_simulator/rotors_description /home/hojin/drone_ws/mpc_ws/src/rotors_simulator/rotors_description /home/hojin/drone_ws/mpc_ws/build/rotors_description /home/hojin/drone_ws/mpc_ws/build/rotors_description /home/hojin/drone_ws/mpc_ws/build/rotors_description/CMakeFiles/clean_test_results.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/slam01/dronw_ws/MPC_WS_PX4/build/rotors_description && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/slam01/dronw_ws/MPC_WS_PX4/src/rotors_simulator/rotors_description /home/slam01/dronw_ws/MPC_WS_PX4/src/rotors_simulator/rotors_description /home/slam01/dronw_ws/MPC_WS_PX4/build/rotors_description /home/slam01/dronw_ws/MPC_WS_PX4/build/rotors_description /home/slam01/dronw_ws/MPC_WS_PX4/build/rotors_description/CMakeFiles/clean_test_results.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/clean_test_results.dir/depend
 

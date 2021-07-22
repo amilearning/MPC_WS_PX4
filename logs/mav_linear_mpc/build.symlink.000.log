@@ -1,0 +1,13 @@
+Symlinking /home/slam01/dronw_ws/MPC_WS_PX4/devel/share/mav_linear_mpc/docs/LinearMPCConfig.wikidoc
+Symlinking /home/slam01/dronw_ws/MPC_WS_PX4/devel/share/mav_linear_mpc/docs/LinearMPCConfig-usage.dox
+Symlinking /home/slam01/dronw_ws/MPC_WS_PX4/devel/share/mav_linear_mpc/docs/LinearMPCConfig.dox
+Symlinking /home/slam01/dronw_ws/MPC_WS_PX4/devel/share/mav_linear_mpc/cmake/mav_linear_mpcConfig.cmake
+Symlinking /home/slam01/dronw_ws/MPC_WS_PX4/devel/share/mav_linear_mpc/cmake/mav_linear_mpcConfig-version.cmake
+Symlinking /home/slam01/dronw_ws/MPC_WS_PX4/devel/include/mav_linear_mpc/LinearMPCConfig.h
+Symlinking /home/slam01/dronw_ws/MPC_WS_PX4/devel/lib/libcvxgen_solver.so
+Symlinking /home/slam01/dronw_ws/MPC_WS_PX4/devel/lib/libmav_linear_mpc.so
+Symlinking /home/slam01/dronw_ws/MPC_WS_PX4/devel/lib/pkgconfig/mav_linear_mpc.pc
+Symlinking /home/slam01/dronw_ws/MPC_WS_PX4/devel/lib/python2.7/dist-packages/mav_linear_mpc/__init__.py
+Symlinking /home/slam01/dronw_ws/MPC_WS_PX4/devel/lib/python2.7/dist-packages/mav_linear_mpc/cfg/LinearMPCConfig.py
+Symlinking /home/slam01/dronw_ws/MPC_WS_PX4/devel/lib/python2.7/dist-packages/mav_linear_mpc/cfg/__init__.py
+Symlinking /home/slam01/dronw_ws/MPC_WS_PX4/devel/lib/mav_linear_mpc/mav_linear_mpc_node

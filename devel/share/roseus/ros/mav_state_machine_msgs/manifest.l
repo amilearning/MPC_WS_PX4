@@ -1,1 +1,1 @@
-/home/hojin/drone_ws/mpc_ws/devel/.private/mav_state_machine_msgs/share/roseus/ros/mav_state_machine_msgs/manifest.l
+/home/slam01/dronw_ws/MPC_WS_PX4/devel/.private/mav_state_machine_msgs/share/roseus/ros/mav_state_machine_msgs/manifest.l

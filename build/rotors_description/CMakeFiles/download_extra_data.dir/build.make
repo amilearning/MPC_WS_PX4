@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hojin/drone_ws/mpc_ws/src/rotors_simulator/rotors_description
+CMAKE_SOURCE_DIR = /home/slam01/dronw_ws/MPC_WS_PX4/src/rotors_simulator/rotors_description
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hojin/drone_ws/mpc_ws/build/rotors_description
+CMAKE_BINARY_DIR = /home/slam01/dronw_ws/MPC_WS_PX4/build/rotors_description
 
 # Utility rule file for download_extra_data.
 
@@ -67,6 +67,6 @@ CMakeFiles/download_extra_data.dir/clean:
 .PHONY : CMakeFiles/download_extra_data.dir/clean
 
 CMakeFiles/download_extra_data.dir/depend:
-	cd /home/hojin/drone_ws/mpc_ws/build/rotors_description && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hojin/drone_ws/mpc_ws/src/rotors_simulator/rotors_description /home/hojin/drone_ws/mpc_ws/src/rotors_simulator/rotors_description /home/hojin/drone_ws/mpc_ws/build/rotors_description /home/hojin/drone_ws/mpc_ws/build/rotors_description /home/hojin/drone_ws/mpc_ws/build/rotors_description/CMakeFiles/download_extra_data.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/slam01/dronw_ws/MPC_WS_PX4/build/rotors_description && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/slam01/dronw_ws/MPC_WS_PX4/src/rotors_simulator/rotors_description /home/slam01/dronw_ws/MPC_WS_PX4/src/rotors_simulator/rotors_description /home/slam01/dronw_ws/MPC_WS_PX4/build/rotors_description /home/slam01/dronw_ws/MPC_WS_PX4/build/rotors_description /home/slam01/dronw_ws/MPC_WS_PX4/build/rotors_description/CMakeFiles/download_extra_data.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/download_extra_data.dir/depend
 

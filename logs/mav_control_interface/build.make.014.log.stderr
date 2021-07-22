@@ -1,0 +1,13 @@
+[01m[K/home/slam01/dronw_ws/MPC_WS_PX4/src/mav_control_rw/mav_control_interface/src/rc_interface_aci.cpp:[m[K In member function ‘[01m[Kvoid mav_control_interface::RcInterfaceAci::rcCallback(const RCInConstPtr&)[m[K’:
+[01m[K/home/slam01/dronw_ws/MPC_WS_PX4/src/mav_control_rw/mav_control_interface/src/rc_interface_aci.cpp:42:22:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmav_control_interface::RcInterfaceAci::isRcOn(const RCInConstPtr&)[m[K’
+   is_on_ = isRcOn(msg[01;31m[K)[m[K;
+                      [01;31m[K^[m[K
+In file included from [01m[K/home/slam01/dronw_ws/MPC_WS_PX4/src/mav_control_rw/mav_control_interface/src/rc_interface_aci.cpp:19:0[m[K:
+[01m[K/home/slam01/dronw_ws/MPC_WS_PX4/src/mav_control_rw/mav_control_interface/include/mav_control_interface/rc_interface_aci.h:40:8:[m[K [01;36m[Knote: [m[Kcandidate: bool mav_control_interface::RcInterfaceAci::isRcOn(const JoyConstPtr&) const
+   bool [01;36m[KisRcOn[m[K(const sensor_msgs::JoyConstPtr& msg) const;
+        [01;36m[K^~~~~~[m[K
+[01m[K/home/slam01/dronw_ws/MPC_WS_PX4/src/mav_control_rw/mav_control_interface/include/mav_control_interface/rc_interface_aci.h:40:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst RCInConstPtr {aka const boost::shared_ptr<const mavros_msgs::RCIn_<std::allocator<void> > >}[m[K’ to ‘[01m[Kconst JoyConstPtr& {aka const boost::shared_ptr<const sensor_msgs::Joy_<std::allocator<void> > >&}[m[K’
+make[2]: *** [CMakeFiles/mav_control_interface.dir/src/rc_interface_aci.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[1]: *** [CMakeFiles/mav_control_interface.dir/all] Error 2
+make: *** [all] Error 2

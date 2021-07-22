@@ -1,0 +1,12 @@
+Symlinking /home/slam01/dronw_ws/MPC_WS_PX4/devel/share/mav_nonlinear_mpc/docs/NonLinearMPCConfig.dox
+Symlinking /home/slam01/dronw_ws/MPC_WS_PX4/devel/share/mav_nonlinear_mpc/docs/NonLinearMPCConfig-usage.dox
+Symlinking /home/slam01/dronw_ws/MPC_WS_PX4/devel/share/mav_nonlinear_mpc/docs/NonLinearMPCConfig.wikidoc
+Symlinking /home/slam01/dronw_ws/MPC_WS_PX4/devel/share/mav_nonlinear_mpc/cmake/mav_nonlinear_mpcConfig-version.cmake
+Symlinking /home/slam01/dronw_ws/MPC_WS_PX4/devel/share/mav_nonlinear_mpc/cmake/mav_nonlinear_mpcConfig.cmake
+Symlinking /home/slam01/dronw_ws/MPC_WS_PX4/devel/include/mav_nonlinear_mpc/NonLinearMPCConfig.h
+Symlinking /home/slam01/dronw_ws/MPC_WS_PX4/devel/lib/libmav_nonlinear_mpc_lib.so
+Symlinking /home/slam01/dronw_ws/MPC_WS_PX4/devel/lib/mav_nonlinear_mpc/nonlinear_mpc_node
+Symlinking /home/slam01/dronw_ws/MPC_WS_PX4/devel/lib/pkgconfig/mav_nonlinear_mpc.pc
+Symlinking /home/slam01/dronw_ws/MPC_WS_PX4/devel/lib/python2.7/dist-packages/mav_nonlinear_mpc/__init__.py
+Symlinking /home/slam01/dronw_ws/MPC_WS_PX4/devel/lib/python2.7/dist-packages/mav_nonlinear_mpc/cfg/NonLinearMPCConfig.py
+Symlinking /home/slam01/dronw_ws/MPC_WS_PX4/devel/lib/python2.7/dist-packages/mav_nonlinear_mpc/cfg/__init__.py

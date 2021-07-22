@@ -14,8 +14,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/mav_nonlinear_mpc_lib.dir/solver/acado_integrator.c.o"
   "CMakeFiles/mav_nonlinear_mpc_lib.dir/solver/acado_solver.c.o"
   "CMakeFiles/mav_nonlinear_mpc_lib.dir/solver/acado_auxiliary_functions.c.o"
-  "/home/hojin/drone_ws/mpc_ws/devel/.private/mav_nonlinear_mpc/lib/libmav_nonlinear_mpc_lib.pdb"
-  "/home/hojin/drone_ws/mpc_ws/devel/.private/mav_nonlinear_mpc/lib/libmav_nonlinear_mpc_lib.so"
+  "/home/slam01/dronw_ws/MPC_WS_PX4/devel/.private/mav_nonlinear_mpc/lib/libmav_nonlinear_mpc_lib.pdb"
+  "/home/slam01/dronw_ws/MPC_WS_PX4/devel/.private/mav_nonlinear_mpc/lib/libmav_nonlinear_mpc_lib.so"
 )
 
 # Per-language clean rules from dependency scanning.

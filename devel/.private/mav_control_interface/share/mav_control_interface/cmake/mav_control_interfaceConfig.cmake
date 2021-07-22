@@ -67,14 +67,14 @@ set(mav_control_interface_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(mav_control_interface_SOURCE_PREFIX /home/hojin/drone_ws/mpc_ws/src/mav_control_rw/mav_control_interface)
-  set(mav_control_interface_DEVEL_PREFIX /home/hojin/drone_ws/mpc_ws/devel/.private/mav_control_interface)
+  set(mav_control_interface_SOURCE_PREFIX /home/slam01/dronw_ws/MPC_WS_PX4/src/mav_control_rw/mav_control_interface)
+  set(mav_control_interface_DEVEL_PREFIX /home/slam01/dronw_ws/MPC_WS_PX4/devel/.private/mav_control_interface)
   set(mav_control_interface_INSTALL_PREFIX "")
   set(mav_control_interface_PREFIX ${mav_control_interface_DEVEL_PREFIX})
 else()
   set(mav_control_interface_SOURCE_PREFIX "")
   set(mav_control_interface_DEVEL_PREFIX "")
-  set(mav_control_interface_INSTALL_PREFIX /home/hojin/drone_ws/mpc_ws/install)
+  set(mav_control_interface_INSTALL_PREFIX /home/slam01/dronw_ws/MPC_WS_PX4/install)
   set(mav_control_interface_PREFIX ${mav_control_interface_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(mav_control_interface_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/home/hojin/drone_ws/mpc_ws/src/mav_control_rw/mav_control_interface/include " STREQUAL " ")
+if(NOT "/home/slam01/dronw_ws/MPC_WS_PX4/src/mav_control_rw/mav_control_interface/include " STREQUAL " ")
   set(mav_control_interface_INCLUDE_DIRS "")
-  set(_include_dirs "/home/hojin/drone_ws/mpc_ws/src/mav_control_rw/mav_control_interface/include")
+  set(_include_dirs "/home/slam01/dronw_ws/MPC_WS_PX4/src/mav_control_rw/mav_control_interface/include")
   if(NOT " " STREQUAL " ")
     set(_report "Check the issue tracker '' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT " " STREQUAL " ")
@@ -110,7 +110,7 @@ if(NOT "/home/hojin/drone_ws/mpc_ws/src/mav_control_rw/mav_control_interface/inc
         message(FATAL_ERROR "Project 'mav_control_interface' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'mav_control_interface' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/hojin/drone_ws/mpc_ws/src/mav_control_rw/mav_control_interface/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'mav_control_interface' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/slam01/dronw_ws/MPC_WS_PX4/src/mav_control_rw/mav_control_interface/${idir}'.  ${_report}")
     endif()
     _list_append_unique(mav_control_interface_INCLUDE_DIRS ${include})
   endforeach()
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/hojin/drone_ws/mpc_ws/devel/.private/mav_control_interface/lib;/home/hojin/drone_ws/mpc_ws/devel/lib;/home/hojin/drone_ws/mbplanner_ws/devel/lib;/home/hojin/catkin_ws/devel/lib;/opt/ros/melodic/lib)
+    foreach(path /home/slam01/dronw_ws/MPC_WS_PX4/devel/.private/mav_control_interface/lib;/home/slam01/dronw_ws/MPC_WS_PX4/devel/lib;/home/slam01/catkin_ws_PBVS_yawfused/devel/lib;/home/slam01/catkin_ws_viconbridge/devel/lib;/home/slam01/catkin_ws_ublox/devel/lib;/home/slam01/catkin_ws_mocap_optitrack/devel/lib;/home/slam01/catkin_ws_bag2csv/devel/lib;/home/slam01/catkin_ws_aruco_5x5/devel/lib;/home/slam01/catkin_ws_aruco_7x7/devel/lib;/home/slam01/catkin_ws_matlab/devel/lib;/home/slam01/catkin_ws_optitrack_test/devel/lib;/home/slam01/catkin_ws_vrpn/devel/lib;/home/slam01/catkin_ws/devel/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

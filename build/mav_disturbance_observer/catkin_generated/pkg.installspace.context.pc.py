@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "${prefix}/include".split(';') if "${prefix}/i
 PROJECT_CATKIN_DEPENDS = "dynamic_reconfigure;mav_msgs;roscpp;cmake_modules;tf;message_generation".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "-lKFDisturbanceObserverLibrary".split(';') if "-lKFDisturbanceObserverLibrary" != "" else []
 PROJECT_NAME = "mav_disturbance_observer"
-PROJECT_SPACE_DIR = "/home/hojin/drone_ws/mpc_ws/install"
+PROJECT_SPACE_DIR = "/home/slam01/dronw_ws/MPC_WS_PX4/install"
 PROJECT_VERSION = "1.0.0"

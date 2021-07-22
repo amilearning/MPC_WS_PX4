@@ -1,24 +1,25 @@
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/hojin/drone_ws/mpc_ws/build/rotors_comm/CMakeFiles/CMakeTmp
+Change Dir: /home/slam01/dronw_ws/MPC_WS_PX4/build/rotors_comm/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_d2db4/fast"
-/usr/bin/make -f CMakeFiles/cmTC_d2db4.dir/build.make CMakeFiles/cmTC_d2db4.dir/build
-make[1]: Entering directory '/home/hojin/drone_ws/mpc_ws/build/rotors_comm/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_d2db4.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_d2db4.dir/CheckSymbolExists.c.o   -c /home/hojin/drone_ws/mpc_ws/build/rotors_comm/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_d2db4
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d2db4.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_d2db4.dir/CheckSymbolExists.c.o  -o cmTC_d2db4 
-CMakeFiles/cmTC_d2db4.dir/CheckSymbolExists.c.o: In function `main':
-CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+Run Build Command:"/usr/bin/make" "cmTC_1939d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1939d.dir/build.make CMakeFiles/cmTC_1939d.dir/build
+make[1]: Entering directory '/home/slam01/dronw_ws/MPC_WS_PX4/build/rotors_comm/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1939d.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_1939d.dir/CheckSymbolExists.c.o   -c /home/slam01/dronw_ws/MPC_WS_PX4/build/rotors_comm/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_1939d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1939d.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_1939d.dir/CheckSymbolExists.c.o  -o cmTC_1939d 
+CMakeFiles/cmTC_1939d.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x14): undefined reference to `pthread_create'
+CheckSymbolExists.c:(.text+0x18): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_d2db4.dir/build.make:97: recipe for target 'cmTC_d2db4' failed
-make[1]: *** [cmTC_d2db4] Error 1
-make[1]: Leaving directory '/home/hojin/drone_ws/mpc_ws/build/rotors_comm/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_d2db4/fast' failed
-make: *** [cmTC_d2db4/fast] Error 2
+CMakeFiles/cmTC_1939d.dir/build.make:97: recipe for target 'cmTC_1939d' failed
+make[1]: *** [cmTC_1939d] Error 1
+make[1]: Leaving directory '/home/slam01/dronw_ws/MPC_WS_PX4/build/rotors_comm/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_1939d/fast' failed
+make: *** [cmTC_1939d/fast] Error 2
 
-File /home/hojin/drone_ws/mpc_ws/build/rotors_comm/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/slam01/dronw_ws/MPC_WS_PX4/build/rotors_comm/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 
@@ -34,22 +35,22 @@ int main(int argc, char** argv)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/hojin/drone_ws/mpc_ws/build/rotors_comm/CMakeFiles/CMakeTmp
+Change Dir: /home/slam01/dronw_ws/MPC_WS_PX4/build/rotors_comm/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_54ed2/fast"
-/usr/bin/make -f CMakeFiles/cmTC_54ed2.dir/build.make CMakeFiles/cmTC_54ed2.dir/build
-make[1]: Entering directory '/home/hojin/drone_ws/mpc_ws/build/rotors_comm/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_54ed2.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_54ed2.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_54ed2
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_54ed2.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_54ed2.dir/CheckFunctionExists.c.o  -o cmTC_54ed2 -lpthreads 
+Run Build Command:"/usr/bin/make" "cmTC_097ed/fast"
+/usr/bin/make -f CMakeFiles/cmTC_097ed.dir/build.make CMakeFiles/cmTC_097ed.dir/build
+make[1]: Entering directory '/home/slam01/dronw_ws/MPC_WS_PX4/build/rotors_comm/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_097ed.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_097ed.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_097ed
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_097ed.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_097ed.dir/CheckFunctionExists.c.o  -o cmTC_097ed -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_54ed2.dir/build.make:97: recipe for target 'cmTC_54ed2' failed
-make[1]: *** [cmTC_54ed2] Error 1
-make[1]: Leaving directory '/home/hojin/drone_ws/mpc_ws/build/rotors_comm/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_54ed2/fast' failed
-make: *** [cmTC_54ed2/fast] Error 2
+CMakeFiles/cmTC_097ed.dir/build.make:97: recipe for target 'cmTC_097ed' failed
+make[1]: *** [cmTC_097ed] Error 1
+make[1]: Leaving directory '/home/slam01/dronw_ws/MPC_WS_PX4/build/rotors_comm/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_097ed/fast' failed
+make: *** [cmTC_097ed/fast] Error 2
 
 

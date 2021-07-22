@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hojin/drone_ws/mpc_ws/src/mav_comm/mav_planning_msgs
+CMAKE_SOURCE_DIR = /home/slam01/dronw_ws/MPC_WS_PX4/src/mav_comm/mav_planning_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hojin/drone_ws/mpc_ws/build/mav_planning_msgs
+CMAKE_BINARY_DIR = /home/slam01/dronw_ws/MPC_WS_PX4/build/mav_planning_msgs
 
 # Utility rule file for run_tests.
 
@@ -67,6 +67,6 @@ CMakeFiles/run_tests.dir/clean:
 .PHONY : CMakeFiles/run_tests.dir/clean
 
 CMakeFiles/run_tests.dir/depend:
-	cd /home/hojin/drone_ws/mpc_ws/build/mav_planning_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hojin/drone_ws/mpc_ws/src/mav_comm/mav_planning_msgs /home/hojin/drone_ws/mpc_ws/src/mav_comm/mav_planning_msgs /home/hojin/drone_ws/mpc_ws/build/mav_planning_msgs /home/hojin/drone_ws/mpc_ws/build/mav_planning_msgs /home/hojin/drone_ws/mpc_ws/build/mav_planning_msgs/CMakeFiles/run_tests.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/slam01/dronw_ws/MPC_WS_PX4/build/mav_planning_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/slam01/dronw_ws/MPC_WS_PX4/src/mav_comm/mav_planning_msgs /home/slam01/dronw_ws/MPC_WS_PX4/src/mav_comm/mav_planning_msgs /home/slam01/dronw_ws/MPC_WS_PX4/build/mav_planning_msgs /home/slam01/dronw_ws/MPC_WS_PX4/build/mav_planning_msgs /home/slam01/dronw_ws/MPC_WS_PX4/build/mav_planning_msgs/CMakeFiles/run_tests.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/run_tests.dir/depend
 

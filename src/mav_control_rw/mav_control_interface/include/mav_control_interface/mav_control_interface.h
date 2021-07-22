@@ -22,6 +22,7 @@
 
 #include <mav_control_interface/position_controller_interface.h>
 #include <mav_control_interface/rc_interface.h>
+
 #include <ros/ros.h>
 
 namespace mav_control_interface {

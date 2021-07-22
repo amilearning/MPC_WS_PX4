@@ -1,0 +1,11 @@
+[01m[K/home/slam01/dronw_ws/MPC_WS_PX4/src/mav_control_rw/mav_control_interface/src/rc_interface_aci.cpp:31:6:[m[K [01;31m[Kerror: [m[Kprototype for ‘[01m[Kvoid mav_control_interface::RcInterfaceAci::rcCallback(const ConstPtr&)[m[K’ does not match any in class ‘[01m[Kmav_control_interface::RcInterfaceAci[m[K’
+ void [01;31m[KRcInterfaceAci[m[K::rcCallback(const mavros_msgs::RCIn::ConstPtr& msg)
+      [01;31m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/slam01/dronw_ws/MPC_WS_PX4/src/mav_control_rw/mav_control_interface/src/rc_interface_aci.cpp:19:0[m[K:
+[01m[K/home/slam01/dronw_ws/MPC_WS_PX4/src/mav_control_rw/mav_control_interface/include/mav_control_interface/rc_interface_aci.h:40:8:[m[K [01;31m[Kerror: [m[Kcandidate is: void mav_control_interface::RcInterfaceAci::rcCallback(const JoyConstPtr&)
+   void [01;31m[KrcCallback[m[K(const sensor_msgs::JoyConstPtr& msg);
+        [01;31m[K^~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/mav_control_interface.dir/src/rc_interface_aci.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[1]: *** [CMakeFiles/mav_control_interface.dir/all] Error 2
+make: *** [all] Error 2

@@ -1,4 +1,4 @@
-prefix=/home/hojin/drone_ws/mpc_ws/install
+prefix=/home/slam01/dronw_ws/MPC_WS_PX4/install
 
 Name: mav_lowlevel_attitude_controller
 Description: Description of mav_lowlevel_attitude_controller

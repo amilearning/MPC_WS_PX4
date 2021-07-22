@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hojin/drone_ws/mpc_ws/src/mav_control_rw/mav_lowlevel_attitude_controller
+CMAKE_SOURCE_DIR = /home/slam01/dronw_ws/MPC_WS_PX4/src/mav_control_rw/mav_lowlevel_attitude_controller
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hojin/drone_ws/mpc_ws/build/mav_lowlevel_attitude_controller
+CMAKE_BINARY_DIR = /home/slam01/dronw_ws/MPC_WS_PX4/build/mav_lowlevel_attitude_controller
 
 # Utility rule file for tf2_msgs_generate_messages_cpp.
 
@@ -67,6 +67,6 @@ CMakeFiles/tf2_msgs_generate_messages_cpp.dir/clean:
 .PHONY : CMakeFiles/tf2_msgs_generate_messages_cpp.dir/clean
 
 CMakeFiles/tf2_msgs_generate_messages_cpp.dir/depend:
-	cd /home/hojin/drone_ws/mpc_ws/build/mav_lowlevel_attitude_controller && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hojin/drone_ws/mpc_ws/src/mav_control_rw/mav_lowlevel_attitude_controller /home/hojin/drone_ws/mpc_ws/src/mav_control_rw/mav_lowlevel_attitude_controller /home/hojin/drone_ws/mpc_ws/build/mav_lowlevel_attitude_controller /home/hojin/drone_ws/mpc_ws/build/mav_lowlevel_attitude_controller /home/hojin/drone_ws/mpc_ws/build/mav_lowlevel_attitude_controller/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/slam01/dronw_ws/MPC_WS_PX4/build/mav_lowlevel_attitude_controller && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/slam01/dronw_ws/MPC_WS_PX4/src/mav_control_rw/mav_lowlevel_attitude_controller /home/slam01/dronw_ws/MPC_WS_PX4/src/mav_control_rw/mav_lowlevel_attitude_controller /home/slam01/dronw_ws/MPC_WS_PX4/build/mav_lowlevel_attitude_controller /home/slam01/dronw_ws/MPC_WS_PX4/build/mav_lowlevel_attitude_controller /home/slam01/dronw_ws/MPC_WS_PX4/build/mav_lowlevel_attitude_controller/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/tf2_msgs_generate_messages_cpp.dir/depend
 

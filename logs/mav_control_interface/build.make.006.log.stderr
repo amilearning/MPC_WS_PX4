@@ -1,0 +1,13 @@
+[01m[K/home/slam01/dronw_ws/MPC_WS_PX4/src/mav_control_rw/mav_control_interface/src/rc_interface_aci.cpp:31:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kmavros_msgs[m[K’ does not name a type
+ void RcInterfaceAci::rcCallback(const [01;31m[Kmavros_msgs[m[K::RCInConstPtr& msg)
+                                       [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/slam01/dronw_ws/MPC_WS_PX4/src/mav_control_rw/mav_control_interface/src/rc_interface_aci.cpp:31:64:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K&[m[K’ token
+ void RcInterfaceAci::rcCallback(const mavros_msgs::RCInConstPtr[01;31m[K&[m[K msg)
+                                                                [01;31m[K^[m[K
+[01m[K/home/slam01/dronw_ws/MPC_WS_PX4/src/mav_control_rw/mav_control_interface/src/rc_interface_aci.cpp:31:64:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K&[m[K’ token
+[01m[K/home/slam01/dronw_ws/MPC_WS_PX4/src/mav_control_rw/mav_control_interface/src/rc_interface_aci.cpp:31:66:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kmsg[m[K’
+ void RcInterfaceAci::rcCallback(const mavros_msgs::RCInConstPtr& [01;31m[Kmsg[m[K)
+                                                                  [01;31m[K^~~[m[K
+make[2]: *** [CMakeFiles/mav_control_interface.dir/src/rc_interface_aci.cpp.o] Error 1
+make[1]: *** [CMakeFiles/mav_control_interface.dir/all] Error 2
+make: *** [all] Error 2

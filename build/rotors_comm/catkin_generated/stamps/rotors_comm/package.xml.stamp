@@ -1,28 +1,48 @@
-<package format="2">
-  <name>rotors_comm</name>
-  <version>2.2.3</version>
-  <description>RotorS specific messages and services.</description>
+<?xml version="1.0"?>
+<?xml-model
+  href="http://download.ros.org/schema/package_format3.xsd"
+  schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>catkin</name>
+  <version>0.7.29</version>
+  <description>Low-level build system macros and infrastructure for ROS.</description>
+  <maintainer email="dthomas@osrfoundation.org">Dirk Thomas</maintainer>
+  <license>BSD</license>
 
-  <maintainer email="fadri.furrer@mavt.ethz.ch">Fadri Furrer</maintainer>
-  <maintainer email="mina.kamel@mavt.ethz.ch">Mina Kamel</maintainer>
+  <url type="website">http://wiki.ros.org/catkin</url>
+  <url type="bugtracker">https://github.com/ros/catkin/issues</url>
+  <url type="repository">https://github.com/ros/catkin</url>
 
-  <author>Fadri Furrer</author>
-  <author>Michael Burri</author>
-  <author>Mina Kamel</author>
-  <author>Janosch Nikolic</author>
-  <author>Markus Achtelik</author>
+  <author>Troy Straszheim</author>
+  <author>Morten Kjaergaard</author>
+  <author>Brian Gerkey</author>
+  <author>Dirk Thomas</author>
 
-  <license>ASL 2.0</license>
+  <depend condition="$ROS_PYTHON_VERSION == 2">python-argparse</depend>
+  <depend condition="$ROS_PYTHON_VERSION == 2" version_gt="0.4.3">python-catkin-pkg</depend>
+  <depend condition="$ROS_PYTHON_VERSION == 3" version_gt="0.4.3">python3-catkin-pkg</depend>
+  <depend condition="$ROS_PYTHON_VERSION == 2">python-empy</depend>
+  <depend condition="$ROS_PYTHON_VERSION == 3">python3-empy</depend>
 
-  <url type="website">https://github.com/ethz-asl/rotors_simulator</url>
-  <url type="bugtracker">https://github.com/ethz-asl/rotors_simulator/issues</url>
+  <buildtool_depend>cmake</buildtool_depend>
+  <buildtool_depend condition="$ROS_PYTHON_VERSION == 2">python-setuptools</buildtool_depend>
+  <buildtool_depend condition="$ROS_PYTHON_VERSION == 3">python3-setuptools</buildtool_depend>
 
-  <!-- Dependencies which this package needs to build itself. -->
-  <buildtool_depend>catkin</buildtool_depend>
+  <buildtool_export_depend>cmake</buildtool_export_depend>
+  <buildtool_export_depend condition="$ROS_PYTHON_VERSION == 3">python3-setuptools</buildtool_export_depend>
 
-  <depend>cmake_modules</depend>
-  <depend>geometry_msgs</depend>
-  <depend>message_generation</depend>
-  <depend>message_runtime</depend>
-  <depend>octomap_msgs</depend>
+  <build_export_depend>google-mock</build_export_depend>
+  <build_export_depend>gtest</build_export_depend>
+  <build_export_depend condition="$ROS_PYTHON_VERSION == 2">python-nose</build_export_depend>
+  <build_export_depend condition="$ROS_PYTHON_VERSION == 3">python3-nose</build_export_depend>
+
+  <test_depend condition="$ROS_PYTHON_VERSION == 2">python-mock</test_depend>
+  <test_depend condition="$ROS_PYTHON_VERSION == 3">python3-mock</test_depend>
+  <test_depend condition="$ROS_PYTHON_VERSION == 2">python-nose</test_depend>
+  <test_depend condition="$ROS_PYTHON_VERSION == 3">python3-nose</test_depend>
+
+  <export>
+    <rosdoc config="rosdoc.yaml"/>
+    <architecture_independent/>
+  </export>
 </package>

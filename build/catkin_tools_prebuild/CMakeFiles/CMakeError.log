@@ -1,24 +1,25 @@
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/hojin/drone_ws/mpc_ws/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp
+Change Dir: /home/slam01/dronw_ws/MPC_WS_PX4/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_122b5/fast"
-/usr/bin/make -f CMakeFiles/cmTC_122b5.dir/build.make CMakeFiles/cmTC_122b5.dir/build
-make[1]: Entering directory '/home/hojin/drone_ws/mpc_ws/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_122b5.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_122b5.dir/CheckSymbolExists.c.o   -c /home/hojin/drone_ws/mpc_ws/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_122b5
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_122b5.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_122b5.dir/CheckSymbolExists.c.o  -o cmTC_122b5 
-CMakeFiles/cmTC_122b5.dir/CheckSymbolExists.c.o: In function `main':
-CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+Run Build Command:"/usr/bin/make" "cmTC_fb420/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fb420.dir/build.make CMakeFiles/cmTC_fb420.dir/build
+make[1]: Entering directory '/home/slam01/dronw_ws/MPC_WS_PX4/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fb420.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_fb420.dir/CheckSymbolExists.c.o   -c /home/slam01/dronw_ws/MPC_WS_PX4/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_fb420
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fb420.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_fb420.dir/CheckSymbolExists.c.o  -o cmTC_fb420 
+CMakeFiles/cmTC_fb420.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x14): undefined reference to `pthread_create'
+CheckSymbolExists.c:(.text+0x18): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_122b5.dir/build.make:97: recipe for target 'cmTC_122b5' failed
-make[1]: *** [cmTC_122b5] Error 1
-make[1]: Leaving directory '/home/hojin/drone_ws/mpc_ws/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_122b5/fast' failed
-make: *** [cmTC_122b5/fast] Error 2
+CMakeFiles/cmTC_fb420.dir/build.make:97: recipe for target 'cmTC_fb420' failed
+make[1]: *** [cmTC_fb420] Error 1
+make[1]: Leaving directory '/home/slam01/dronw_ws/MPC_WS_PX4/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_fb420/fast' failed
+make: *** [cmTC_fb420/fast] Error 2
 
-File /home/hojin/drone_ws/mpc_ws/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/slam01/dronw_ws/MPC_WS_PX4/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 
@@ -34,22 +35,22 @@ int main(int argc, char** argv)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/hojin/drone_ws/mpc_ws/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp
+Change Dir: /home/slam01/dronw_ws/MPC_WS_PX4/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_59538/fast"
-/usr/bin/make -f CMakeFiles/cmTC_59538.dir/build.make CMakeFiles/cmTC_59538.dir/build
-make[1]: Entering directory '/home/hojin/drone_ws/mpc_ws/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_59538.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_59538.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_59538
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_59538.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_59538.dir/CheckFunctionExists.c.o  -o cmTC_59538 -lpthreads 
+Run Build Command:"/usr/bin/make" "cmTC_a640f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a640f.dir/build.make CMakeFiles/cmTC_a640f.dir/build
+make[1]: Entering directory '/home/slam01/dronw_ws/MPC_WS_PX4/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a640f.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_a640f.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a640f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a640f.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_a640f.dir/CheckFunctionExists.c.o  -o cmTC_a640f -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_59538.dir/build.make:97: recipe for target 'cmTC_59538' failed
-make[1]: *** [cmTC_59538] Error 1
-make[1]: Leaving directory '/home/hojin/drone_ws/mpc_ws/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_59538/fast' failed
-make: *** [cmTC_59538/fast] Error 2
+CMakeFiles/cmTC_a640f.dir/build.make:97: recipe for target 'cmTC_a640f' failed
+make[1]: *** [cmTC_a640f] Error 1
+make[1]: Leaving directory '/home/slam01/dronw_ws/MPC_WS_PX4/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_a640f/fast' failed
+make: *** [cmTC_a640f/fast] Error 2
 
 

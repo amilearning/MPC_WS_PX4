@@ -1,1 +1,0 @@
-set(ORDERED_PATHS "/home/hojin/drone_ws/mpc_ws/devel/.private/rotors_control/lib;/opt/ros/melodic/lib")
